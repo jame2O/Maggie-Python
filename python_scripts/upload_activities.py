@@ -17,11 +17,66 @@ with open("./python_scripts/google_api_key.json") as f:
 
 gmaps = googlemaps.Client(key=GOOGLE_API_KEY)
 
-def get_lat_lng(address):
-    location = gmaps.geocode(address)[0]["geometry"]["location"]
-    return location["lat"], location["lng"]
+def get_lat_lng(address, name):
+    location = None
+    # Try geocoding by address. If this doesn't work, try the name. If else, return nonetypes
+    geocode = gmaps.geocode(address) 
+    if geocode:
+        location = gmaps.geocode(address)[0]["geometry"]["location"]
+        return location["lat"], location["lng"]
+    
+    geocode = gmaps.geocode(name)
+    if geocode:
+        location = gmaps.geocode(address)[0]["geometry"]["location"]
+        return location["lat"], location["lng"]
+    #location = gmaps.geocode(address)[0]["geometry"]["location"]
+    return None, None
 
-def upload_activities(df):
+
+def process_parks(df):
+    parks = []
+    for index, row in df.iterrows():
+        doc_entry = {
+            "state": "",
+            "council": "",
+            "location": {
+                "name": "",
+                "address": "",
+                "latlng": None
+            },
+            "age_range": {
+                "min": 0.0,
+                "max": 0.0,
+            },
+            "name": "",
+            "description": "",
+            "icon": ""
+        }
+        doc_entry["state"] = row["State"].lower()
+        doc_entry["council"] = row["Council"]
+        doc_entry["location"]["name"] = row["Where?"]
+        doc_entry["location"]["address"] = row["Address"]
+        doc_entry["icon"] = row["Icon"]
+        doc_entry["description"] = row["Short description"]
+        doc_entry["name"] = row["What's On?"]
+        
+        # Process age
+        min_age, max_age = get_age_ranges(row["Suitable for"])
+        if min_age is not None:
+            doc_entry["age_range"]["min"] = min_age.replace(" ", "")
+        if max_age is not None:    
+            doc_entry["age_range"]["max"] = max_age.replace(" ", "")
+        # Process loc
+        if doc_entry["location"]["address"] is not None:
+            lat, lng = get_lat_lng(doc_entry["location"]["address"], doc_entry["location"]["name"])
+            if lat is not None and lng is not None:
+                doc_entry["location"]["latlng"] = firestore.GeoPoint(lat, lng)
+
+        parks.append(doc_entry)
+    return parks
+
+def process_activities(df):
+    activities = []
     for index, row in df.iterrows():
         # Define the entry struct
         doc_entry = {
@@ -69,15 +124,23 @@ def upload_activities(df):
             doc_entry["age_range"]["max"] = max_age.replace(" ", "")
         # Process loc
         if doc_entry["location"]["address"] is not None:
-            lat, lng = get_lat_lng(doc_entry["location"]["address"])
+            lat, lng = get_lat_lng(doc_entry["location"]["address"], doc_entry["location"]["name"])
             if lat is not None and lng is not None:
                 doc_entry["location"]["latlng"] = firestore.GeoPoint(lat, lng)
-            
+        activities.append(doc_entry)    
+    return activities
+
+def upload_data(data, type):
+    for doc_entry in data:
         print(doc_entry)
-        coll_ref = db.collection("activity_data", "activities", f"{doc_entry["state"]}")
+        state = doc_entry["state"]
+        coll_ref = db.collection("activity_data", f"{type}", f"{state}")
+        # We don't need to store state data in each entry.
         del doc_entry["state"]
         doc_ref = coll_ref.add(doc_entry)
         print(f'Document created with ID: {doc_ref[1].id}')
+        
+
 def get_time_ranges(text):
     pattern = r"([\d]{1,2}(.[\d]{1,2})?\s?[a-zA-Z]{2})\s*(-\s*([\d]{1,2}(.[\d]{1,2})?\s?[a-zA-Z]{2}))?"
     match = re.search(pattern, text)
@@ -93,9 +156,13 @@ def get_age_ranges(text):
     else:
         return None, None
 
+    
 if __name__ == '__main__':
     # Load datasets
     vic_master_df = pd.read_csv("./python_scripts/data/vicMaster.csv")
     nsw_master_df = pd.read_csv("./python_scripts/data/nswMaster.csv")
     vic_parks_df = pd.read_csv("./python_scripts/data/vicParks.csv")
-    upload_activities(vic_master_df)
+    
+    parks = process_parks(vic_parks_df)
+    print(parks)
+    upload_data(parks, "parks")
