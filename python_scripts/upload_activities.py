@@ -119,7 +119,7 @@ def process_activities(df):
             time_tfS = time_tf.strftime('%H:%M')
             doc_entry["time"]["time_range"]["start"] = time_tfS
         if max_time is not None: 
-            time_tw = min_time.replace(" ", "")
+            time_tw = max_time.replace(" ", "")
             time_tf = datetime.strptime(time_tw, '%I:%M%p')
             time_tfS = time_tf.strftime('%H:%M')
             doc_entry["time"]["time_range"]["end"] = time_tfS
@@ -169,6 +169,7 @@ if __name__ == '__main__':
     nsw_master_df = pd.read_csv("./python_scripts/data/nswMaster.csv")
     vic_parks_df = pd.read_csv("./python_scripts/data/vicParks.csv")
     
-    parks = process_activities(vic_master_df)
-    print(parks)
+    acts = process_activities(nsw_master_df)
+    parks = process_parks(vic_parks_df)
+    print("Pasring successful!")
     upload_data(parks, "parks")
