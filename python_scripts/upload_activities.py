@@ -63,9 +63,9 @@ def process_parks(df):
         # Process age
         min_age, max_age = get_age_ranges(row["Suitable for"])
         if min_age is not None:
-            doc_entry["age_range"]["min"] = min_age.replace(" ", "")
+            doc_entry["age_range"]["min"] = float(min_age.replace(" ", ""))
         if max_age is not None:    
-            doc_entry["age_range"]["max"] = max_age.replace(" ", "")
+            doc_entry["age_range"]["max"] = float(max_age.replace(" ", ""))
         # Process loc
         if doc_entry["location"]["address"] is not None:
             lat, lng = get_lat_lng(doc_entry["location"]["address"], doc_entry["location"]["name"])
@@ -113,15 +113,22 @@ def process_activities(df):
         # Process time
         min_time, max_time = get_time_ranges(row["Time"])
         if min_time is not None:
-            doc_entry["time"]["time_range"]["start"] = min_time.replace(" ", "")
+            # Convert to 24 hour format
+            time_tw = min_time.replace(" ", "")
+            time_tf = datetime.strptime(time_tw, '%I:%M%p')
+            time_tfS = time_tf.strftime('%H:%M')
+            doc_entry["time"]["time_range"]["start"] = time_tfS
         if max_time is not None: 
-            doc_entry["time"]["time_range"]["end"] = max_time.replace(" ", "") 
+            time_tw = min_time.replace(" ", "")
+            time_tf = datetime.strptime(time_tw, '%I:%M%p')
+            time_tfS = time_tf.strftime('%H:%M')
+            doc_entry["time"]["time_range"]["end"] = time_tfS
         # Process age
         min_age, max_age = get_age_ranges(row["Suitable for"])
         if min_age is not None:
-            doc_entry["age_range"]["min"] = min_age.replace(" ", "")
+            doc_entry["age_range"]["min"] = float(min_age.replace(" ", ""))
         if max_age is not None:    
-            doc_entry["age_range"]["max"] = max_age.replace(" ", "")
+            doc_entry["age_range"]["max"] = float(max_age.replace(" ", ""))
         # Process loc
         if doc_entry["location"]["address"] is not None:
             lat, lng = get_lat_lng(doc_entry["location"]["address"], doc_entry["location"]["name"])
@@ -156,13 +163,12 @@ def get_age_ranges(text):
     else:
         return None, None
 
-    
 if __name__ == '__main__':
     # Load datasets
     vic_master_df = pd.read_csv("./python_scripts/data/vicMaster.csv")
     nsw_master_df = pd.read_csv("./python_scripts/data/nswMaster.csv")
     vic_parks_df = pd.read_csv("./python_scripts/data/vicParks.csv")
     
-    parks = process_parks(vic_parks_df)
+    parks = process_activities(vic_master_df)
     print(parks)
     upload_data(parks, "parks")
