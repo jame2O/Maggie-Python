@@ -13,6 +13,7 @@ db = firestore.client()
 GOOGLE_API_KEY = ""
 with open("./python_scripts/google_api_key.json") as f:
     GOOGLE_API_KEY = json.load(f)["key"]
+    print(GOOGLE_API_KEY)
     f.close()
 
 gmaps = googlemaps.Client(key=GOOGLE_API_KEY)
@@ -71,6 +72,9 @@ def process_parks(df):
             lat, lng = get_lat_lng(doc_entry["location"]["address"], doc_entry["location"]["name"])
             if lat is not None and lng is not None:
                 doc_entry["location"]["latlng"] = firestore.GeoPoint(lat, lng)
+                doc_entry["latitude"] = lat
+                doc_entry["longitude"] = lng
+                
 
         parks.append(doc_entry)
     return parks
@@ -114,12 +118,12 @@ def process_activities(df):
         min_time, max_time = get_time_ranges(row["Time"])
         if min_time is not None:
             # Convert to 24 hour format
-            time_tw = min_time.replace(" ", "")
+            time_tw = min_time.replace(" ", "").replace(".", ":")
             time_tf = datetime.strptime(time_tw, '%I:%M%p')
             time_tfS = time_tf.strftime('%H:%M')
             doc_entry["time"]["time_range"]["start"] = time_tfS
-        if max_time is not None: 
-            time_tw = max_time.replace(" ", "")
+        if max_time is not None:
+            time_tw = max_time.replace(" ", "").replace(".", ":")
             time_tf = datetime.strptime(time_tw, '%I:%M%p')
             time_tfS = time_tf.strftime('%H:%M')
             doc_entry["time"]["time_range"]["end"] = time_tfS
@@ -134,12 +138,24 @@ def process_activities(df):
             lat, lng = get_lat_lng(doc_entry["location"]["address"], doc_entry["location"]["name"])
             if lat is not None and lng is not None:
                 doc_entry["location"]["latlng"] = firestore.GeoPoint(lat, lng)
+                doc_entry["latitude"] = lat
+                doc_entry["longitude"] = lng
+                
         activities.append(doc_entry)    
     return activities
-
+def update_data(states, data, org, rep):
+    for state in states:
+        coll_ref = db.collection("activity_data", "activities", f"{state}")
+        query = coll_ref.where(data, "==", org)
+        docs = query.stream()
+        print("hello")
+        for doc in docs:
+            doc_ref = coll_ref.document(doc.id)
+            doc_ref.update({data: rep})
+            print(f'Document {doc.id} updated: {data} changed from {org} to {rep}')
+    
 def upload_data(data, type):
     for doc_entry in data:
-        print(doc_entry)
         state = doc_entry["state"]
         coll_ref = db.collection("activity_data", f"{type}", f"{state}")
         # We don't need to store state data in each entry.
@@ -165,11 +181,24 @@ def get_age_ranges(text):
 
 if __name__ == '__main__':
     # Load datasets
-    vic_master_df = pd.read_csv("./python_scripts/data/vicMaster.csv")
-    nsw_master_df = pd.read_csv("./python_scripts/data/nswMaster.csv")
-    vic_parks_df = pd.read_csv("./python_scripts/data/vicParks.csv")
+    # vic_master_df = pd.read_csv("./python_scripts/data/vicMaster.csv")
+    # nsw_master_df = pd.read_csv("./python_scripts/data/nswMaster.csv")
+    # vic_parks_df = pd.read_csv("./python_scripts/data/vicParks.csv")
+    # act_master_df = pd.read_csv("./python_scripts/data/actMaster.csv")
+    # qld_master_df = pd.read_csv("./python_scripts/data/qldMaster.csv")
+    # sa_master_df = pd.read_csv("./python_scripts/data/saMaster.csv")
+    # wa_master_df = pd.read_csv("./python_scripts/data/waMaster.csv")
+    # nt_master_df = pd.read_csv("./python_scripts/data/ntMaster.csv")
+    #tas_master_df = pd.read_csv("./python_scripts/data/tasMaster.csv")
+    #tas = process_activities(tas_master_df)
+    #print("Pasring successful!")
     
-    acts = process_activities(nsw_master_df)
-    parks = process_parks(vic_parks_df)
-    print("Pasring successful!")
-    upload_data(parks, "parks")
+    update_data(["nsw", "vic", "sa", "tas", "qld", "wa", "nt", "act"], "icon", "teddy_book", "toddler_session")
+    update_data(["nsw", "vic", "sa", "tas", "qld", "wa", "nt", "act"], "icon", "music_book", "rhymetime")
+    update_data(["nsw", "vic", "sa", "tas", "qld", "wa", "nt", "act"], "icon", "baby", "infant_session")
+    update_data(["nsw", "vic", "sa", "tas", "qld", "wa", "nt", "act"], "icon", "heart", "sensory")
+
+
+
+
+    
