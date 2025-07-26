@@ -1,0 +1,298 @@
+name,start_time,end_time,day,location
+Preschool Storytime,11:00,11:45,Thursday,Hastings Library
+Preschool Storytime,11:00,11:45,Wednesday,Mornington Library
+Preschool Storytime,11:00,11:45,Thursday,Rosebud Library
+Preschool Storytime,11:00,11:45,Wednesday,Somerville Library
+Sensitive Storytime,11:00,11:30,Tuesday,Hastings Library
+Sensitive Storytime,11:00,11:30,Tuesday,Mornington Library
+Sensitive Storytime,11:00,11:30,Tuesday,Rosebud Library
+Sensitive Storytime,11:00,11:30,Tuesday,Somerville Library
+Baby Rhymetime,10:00,10:30,Monday,Hastings Library
+Baby Rhymetime,10:00,10:30,Monday,Mornington Library
+Baby Rhymetime,10:00,10:30,Monday,Rosebud Library
+Baby Rhymetime,10:00,10:30,Monday,Somerville Library
+Toddler Rhymetime,11:00,11:30,Monday,Hastings Library
+Toddler Rhymetime,11:00,11:30,Monday,Mornington Library
+Toddler Rhymetime,11:00,11:30,Monday,Rosebud Library
+Toddler Rhymetime,11:00,11:30,Monday,Somerville Library
+Toddler Time,11:30,12:00,Monday,Chelsea Library
+Toddler Time,11:30,12:00,Tuesday,Parkdale Library
+Toddler Time,11:30,12:00,Wednesday,Clarinda Library
+Toddler Time,11:30,12:00,Thursday,Dingley Village Library
+Toddler Time,11:30,12:00,Friday,Cheltenham Library
+Toddler Time,11:30,12:00,Friday,Patterson Lakes Library
+Preschool Storytime,11:00,11:30,Monday,Chelsea Library
+Preschool Storytime,11:00,11:30,Tuesday,Parkdale Library
+Preschool Storytime,11:00,11:30,Wednesday,Clarinda Library
+Preschool Storytime,11:00,11:30,Thursday,Dingley Village Library
+Preschool Storytime,11:00,11:30,Friday,Cheltenham Library
+Preschool Storytime,11:00,11:30,Friday,Patterson Lakes Library
+Baby Time,11:30,11:50,Monday,Chelsea Library
+Baby Time,11:30,11:50,Tuesday,Parkdale Library
+Baby Time,11:30,11:50,Wednesday,Clarinda Library
+Baby Time,11:30,11:50,Thursday,Dingley Village Library
+Baby Time,11:30,11:50,Friday,Cheltenham Library
+Baby Time,11:30,11:50,Friday,Patterson Lakes Library
+Baby Rhyme Time,11:15,11:45,Monday,Ascot Vale Library
+Baby Rhyme Time,11:15,11:45,Tuesday,Avondale Heights Library
+Baby Rhyme Time,11:15,11:45,Thursday,Flemington Library
+Baby Rhyme Time,11:15,11:45,Friday,Niddrie Library
+Baby Rhyme Time,11:15,11:45,Wednesday,Sam Merrifield Library
+Toddler Time,10:15,10:45,Monday,Ascot Vale Library
+Toddler Time,10:15,10:45,Tuesday,Avondale Heights Library
+Toddler Time,10:15,10:45,Thursday,Flemington Library
+Toddler Time,10:15,10:45,Friday,Niddrie Library
+Toddler Time,10:15,10:45,Wednesday,Sam Merrifield Library
+Preschool Storytime,10:30,11:00,Thursday,Ascot Vale Library
+Preschool Storytime,10:30,11:00,Wednesday,Avondale Heights Library
+Preschool Storytime,10:30,11:00,Friday,Flemington Library
+Preschool Storytime,10:30,11:00,Tuesday,Niddrie Library
+Preschool Storytime,10:30,11:00,Monday,Sam Merrifield Library
+Saturday Storytime,10:30,11:00,Saturday,Ascot Vale Library
+Saturday Storytime,10:30,11:00,Saturday,Avondale Heights Library
+Saturday Storytime,10:30,11:00,Saturday,Flemington Library
+Saturday Storytime,10:30,11:00,Saturday,Niddrie Library
+Saturday Storytime,10:30,11:00,Saturday,Sam Merrifield Library
+Baby Bounce,10:30,11:00,Wednesday,Dandenong Library
+Baby Bounce,10:30,11:00,Friday,Springvale Library
+Toddler Time,10:30,11:00,Monday,Dandenong Library
+Toddler Time,10:30,11:00,Monday,Springvale Library
+Storytime,10:30,11:00,Thursday,Dandenong Library
+Storytime,10:30,11:00,Thursday,Springvale Library
+Family Fun,15:00,16:00,Saturday,Springvale Library
+Baby Bounce Outreach,10:30,11:00,Friday,Keysborough Hall
+Nature Play,10:00,11:00,Tuesday,Alex Wilkie Nature Reserve
+Baby Time,11:30,11:50,Monday,Drysdale Library
+Baby Time,11:30,11:50,Monday,Geelong Library & Heritage Centre
+Baby Time,10:00,10:20,Tuesday,Lara Library
+Baby Time,11:30,11:50,Tuesday,Geelong Library & Heritage Centre
+Baby Time,11:30,11:50,Tuesday,Leopold Library
+Baby Time,10:45,11:05,Tuesday,Torquay Library
+Baby Time,11:30,11:50,Wednesday,Geelong Library & Heritage Centre
+Baby Time,11:30,11:50,Wednesday,Corio Library
+Baby Time,11:30,11:50,Wednesday,Belmont Library
+Baby Time,14:30,14:50,Wednesday,Geelong West Library
+Baby Time,14:30,14:50,Wednesday,Waurn Ponds Library
+Baby Time,10:30,10:50,Thursday,Armstrong Creek Library
+Baby Time,11:30,11:50,Thursday,Colac Library
+Baby Time,11:30,11:50,Thursday,Ocean Grove Library
+Baby Time,11:30,11:50,Thursday,Waurn Ponds Library
+Baby Time,11:30,11:50,Thursday,Newcomb Library
+Baby Time,10:45,11:05,Friday,Torquay Library
+Baby Time,11:30,11:50,Friday,Bannockburn Library
+Toddler Time,10:30,11:00,Monday,Biyal-a Armstrong Creek Library
+Toddler Time,10:30,11:00,Monday,Colac Community Library & Learning Centre
+Toddler Time,10:30,11:00,Monday,Geelong Library & Heritage Centre
+Toddler Time,10:30,11:00,Monday,Geelong West Library
+Toddler Time,10:30,11:00,Monday,Waurn Ponds Library
+Toddler Time,09:30,10:00,Tuesday,Belmont Library
+Toddler Time,10:30,11:00,Tuesday,Bannockburn Library
+Toddler Time,10:30,11:00,Tuesday,Newcomb Library
+Toddler Time,09:30,10:00,Wednesday,Belmont Library
+Toddler Time,09:30,10:00,Wednesday,Ocean Grove Library
+Toddler Time,10:30,11:00,Wednesday,Colac Community Library & Learning Centre
+Toddler Time,10:30,11:00,Wednesday,Torquay Library
+Toddler Time,10:30,11:00,Wednesday,Geelong Library & Heritage Centre
+Toddler Time,11:30,12:00,Wednesday,Apollo Bay Library
+Toddler Time,10:30,11:00,Thursday,Corio Library
+Toddler Time,10:30,11:00,Thursday,Geelong Library & Heritage Centre
+Toddler Time,10:30,11:00,Thursday,Geelong West Library
+Toddler Time,10:30,11:00,Thursday,Leopold Library
+Toddler Time,10:30,11:00,Thursday,Torquay Library
+Toddler Time,09:30,10:00,Friday,Barwon Heads Library
+Toddler Time,10:30,11:00,Friday,Boronggook Drysdale Library
+Toddler Time,10:30,11:00,Friday,Waurn Ponds Library
+Toddler Time,10:00,10:30,Friday,Lara Library
+Toddler Time,15:00,15:30,Sunday,Geelong Library & Heritage Centre
+Preschool Story Time,10:30,11:15,Monday,Torquay Library
+Preschool Story Time,10:30,11:15,Monday,Ocean Grove Library
+Preschool Story Time,14:15,15:00,Monday,Leopold Library
+Preschool Story Time,10:30,11:15,Tuesday,Belmont Library
+Preschool Story Time,10:30,11:15,Tuesday,Chilwell Library
+Preschool Story Time,10:30,11:15,Tuesday,Colac Community Library & Learning Centre
+Preschool Story Time,10:30,11:15,Tuesday,Corio Library
+Preschool Story Time,10:30,11:15,Tuesday,Boronggook Drysdale Library
+Preschool Story Time,10:00,10:45,Wednesday,Lara Library
+Preschool Story Time,10:30,11:15,Wednesday,Geelong West Library
+Preschool Story Time,10:30,11:15,Wednesday,Queenscliff Library
+Preschool Story Time,10:30,11:15,Wednesday,Waurn Ponds Library
+Preschool Story Time,11:00,11:45,Wednesday,Biyal-a Armstrong Creek Library
+Preschool Story Time,10:30,11:15,Thursday,Bannockburn Library
+Preschool Story Time,10:30,11:15,Thursday,Belmont Library
+Preschool Story Time,10:30,11:15,Thursday,Chilwell Library
+Preschool Story Time,10:30,11:15,Friday,Barwon Heads Library
+Preschool Story Time,10:30,11:15,Friday,Geelong Library & Heritage Centre
+Preschool Story Time,10:30,11:15,Friday,Highton Library
+Preschool Story Time,10:30,11:15,Friday,Newcomb Library
+Home-School: The Mix,10:00,11:00,Monday,Geelong Library & Heritage Centre
+Mega LEGO Club,15:30,16:30,Monday,Lara Library
+Paint Parties,16:00,17:00,Monday,Geelong Library & Heritage Centre
+Mega LEGO Club,16:00,17:00,Tuesday,Newcomb Library
+Artists Assemble!,16:00,17:00,Tuesday,Biyal-a Armstrong Creek Library
+Junior Mix,16:00,17:00,Tuesday,Boronggook Drysdale Library
+Mega LEGO Club,16:00,17:00,Tuesday,Colac Community Library & Learning Centre
+"Wellness Family Story Time - Nature, Nurture and Nourished",10:30,11:30,Wednesday,Waurn Ponds Library
+Mega LEGO Club,16:00,17:00,Thursday,Torquay Library
+LEGO Library Club,15:15,16:15,Friday,Queenscliff Library
+Baby Rhyme Time,10:30,11:00,Friday,Bendigo Library
+Baby Rhyme Time,10:30,11:00,Tuesday,Castlemaine Library
+Baby Rhyme Time,10:30,11:00,Friday,Gisborne Library
+Baby Rhyme Time,10:30,11:00,Thursday,Heathcote Library
+Baby Rhyme Time,10:30,11:00,Tuesday,Kangaroo Flat Library
+Baby Rhyme Time,10:00,10:30,Tuesday,Kyneton Library
+Baby Rhyme Time,11:00,11:30,Thursday,Romsey Library
+Baby Rhyme Time,11:00,11:30,Friday,Woodend Library
+Toddler Time,10:30,11:00,Tuesday,Bendigo Library
+Toddler Time,10:30,11:00,Thursday,Bendigo Library
+Toddler Time,10:30,11:15,Monday,Castlemaine Library
+Toddler Time,10:30,11:00,Friday,Eaglehawk Library
+Toddler Time,10:30,11:00,Wednesday,Kangaroo Flat Library
+Toddler Time,11:00,11:30,Monday,Kyneton Library
+Toddler Time,11:00,11:30,Tuesday,Woodend Library
+Storytime,10:30,11:15,Monday,Bendigo Library
+Storytime,10:30,11:15,Wednesday,Bendigo Library
+Storytime,10:30,11:15,Wednesday,Castlemaine Library
+Storytime,10:30,11:15,Tuesday,Eaglehawk Library
+Storytime,10:30,11:15,Monday,Gisborne Library
+Storytime,10:30,11:15,Wednesday,Gisborne Library
+Storytime,10:30,11:15,Thursday,Gisborne Library
+Saturday Storytime,10:30,11:00,Saturday,Woodend Library
+Saturday Storytime,10:00,10:30,Saturday,Romsey Library
+Baby Rhyme Time,10:30,11:00,Wednesday,Shepparton Library
+LEGO and Games Club,15:30,16:30,Wednesday,Yarrawonga Library
+After-School Activities,16:00,17:00,Wednesday,Avenel Library
+Rhyme and Story Time,10:30,11:30,Thursday,Yarrawonga Library
+Rhyme and Story Time,10:30,11:30,Thursday,Nagambie Library
+Rhyme and Story Time,10:00,11:00,Friday,Euroa Library
+Rhyme and Story Time,10:30,11:30,Friday,Cobram Library
+Rhyme and Story Time,10:30,11:00,Friday,Shepparton Library
+Rhyme and Story Time,10:00,11:00,Wednesday,Numurkah Library
+Rhyme and Story Time,10:30,11:30,Wednesday,Avenel Library
+Rhyme and Story Time,10:30,11:00,Thursday,Nathalia Library
+Mandarin Rhyme & Story Time,10:30,11:30,Thursday,Shepparton Library
+Rhyme and Story Time,10:30,11:30,Thursday,Violet Town Library
+Baby Rhyme Time,10:30,11:00,Thursday,Mooroopna Library
+Dari Storytime Sessions,23:00,12:00,Friday,St Georges Rd School Community Hub
+Arabic Storytime Sessions,14:00,15:00,Thursday,Arthur Mawson Kindergarten
+Punjabi Storytime Sessions,10:30,11:30,Tuesday,South Shepparton Community Centre
+Bush Storytime,10:30,11:00,Thursday,Woodlands Historic Park
+Baby Bounce,13:00,13:30,Tuesday,Broadmeadows Library
+Baby Bounce,12:15,12:45,Friday,Broadmeadows Library
+Baby Bounce,13:00,13:30,Monday,Craigieburn Library
+Baby Bounce,14:00,14:30,Thursday,Craigieburn Library
+Baby Bounce,12:00,12:30,Monday,Sunbury Library
+Baby Bounce,11:30,12:00,Thursday,Sunbury Library
+Baby Bounce,11:30,12:00,Friday,Sunbury Library
+Baby Bounce,12:15,12:45,Wednesday,Tullamarine Library
+Rhyme Time,10:00,10:30,Monday,Sunbury Library
+Rhyme Time,10:00,10:30,Monday,Greenvale West Community Centre
+Rhyme Time,10:15,10:45,Tuesday,Broadmeadows Library
+Rhyme Time,10:15,10:45,Tuesday,Craigieburn Library
+Rhyme Time,10:15,10:45,Wednesday,Tullamarine Library
+Rhyme Time,14:30,15:00,Wednesday,Mickleham North Community Centre
+Rhyme Time,10:00,10:30,Friday,Sunbury Library
+Rhyme Time,10:00,10:30,Friday,Kalkallo Community Centre
+Rhyme Time,10:15,10:45,Friday,Broadmeadows Library
+Rhyme Time,10:15,10:45,Friday,Craigieburn Library
+Bilingual Storytime: Turkish,11:30,12:15,Monday,Broadmeadows Library
+Bilingual Storytime: Arabic,13:00,13:45,Wednesday,Broadmeadows Library
+Bilingual Storytime: Assyrian,11:00,11:45,Thursday,Broadmeadows Library
+Bilingual Storytime: Sinhala,11:00,11:45,Monday,Craigieburn Library
+Bilingual Storytime: Arabic,11:00,11:45,Wednesday,Craigieburn Library
+Bilingual Storytime: Turkish,13:00,13:45,Wednesday,Craigieburn Library
+Bilingual Storytime: Hindi,11:00,11:45,Thursday,Craigieburn Library
+Bilingual Storytime: Assyrian,13:00,13:45,Friday,Craigieburn Library
+Bilingual Storytime: Punjabi,11:30,12:30,Friday,Kalkallo Community Centre
+Bilingual Storytime: Punjabi,11:00,12:00,Monday,Mickleham North Community Centre
+Books and Bubs,11:00,11:30,Thursday,Sunbury Library
+Creative Kids,16:00,17:00,Thursday,Tullamarine Library
+Early Help Community Group,11:00,12:00,Wednesday,Broadmeadows Library
+Baby Playtime,09:30,11:00,Saturday,Tullamarine Library
+Bookaburra Storytime,09:15,10:00,Monday,Mt Dandenong Primary School
+Bookaburra Storytime,09:30,10:15,Tuesday,Mt Evelyn Community House
+Bookaburra Storytime,09:15,10:00,Tuesday,Monbulk Living and Learning Centre - Reading Room
+Bookaburra Storytime,09:15,10:00,Wednesday,Japara Neighbourhood House
+Bookaburra Storytime,09:15,10:00,Thursday,Chirnside Park Community Hub
+Bookaburra Storytime,09:15,10:00,Friday,Victoria Road Primary School
+Baby Rhyme Time,10:30,11:00,Monday,Daylesford Library
+Baby Rhyme Time,10:30,11:00,Tuesday,Creswick Library
+Baby Rhyme Time,11:00,11:30,Wednesday,Trentham Library
+Baby Rhyme Time,11:30,12:00,Thursday,Clunes Library
+Storytime,10:30,11:00,Friday,Daylesford Library
+Storytime (followed by Craft),10:00,11:00,Thursday,Bright Library
+Rhyme Time,10:00,11:00,Friday,Bright Library
+Storytime (followed by Craft),14:30,15:30,Thursday,Mount Beauty Library
+Rhyme Time,10:00,11:00,Wednesday,Myrtleford Library
+Storytime (followed by Craft),11:00,12:00,Thursday,Myrtleford Library
+Baby Bounce,10:00,10:30,Tuesday,Caroline Springs Library & Learning Hub
+Baby Bounce,11:30,12:00,Wednesday,Caroline Springs Library & Learning Hub
+Baby Bounce,11:30,12:00,Tuesday,Melton Library & Learning Hub
+Baby Bounce,11:30,12:00,Wednesday,Melton Library & Learning Hub
+Toddler Time,10:00,10:30,Friday,Caroline Springs Library & Learning Hub
+Toddler Time,11:00,11:30,Friday,Caroline Springs Library & Learning Hub
+Toddler Time,10:00,10:30,Monday,Melton Library & Learning Hub
+Toddler Time,10:00,10:30,Thursday,Melton Library & Learning Hub
+Preschool Storytime,10:00,10:30,Wednesday,Caroline Springs Library & Learning Hub
+Preschool Storytime,10:00,10:30,Tuesday,Melton Library & Learning Hub
+Family Tales,11:00,11:30,Saturday,Caroline Springs Library & Learning Hub
+Family Tales,11:00,11:30,Saturday,Melton Library & Learning Hub
+Preschool Storytime,10:00,10:30,Wednesday,Caroline Springs Library & Learning Hub
+Preschool Storytime,10:00,10:30,Tuesday,Melton Library & Learning Hub
+Family Tales,11:00,11:30,Saturday, Melton Library & Learning Hub
+After Schooligans,15:45,16:30,Tuesday,Melton Library & Learning Hub
+After Schooligans,15:45,16:30,Tuesday,Caroline Springs Library & Learning Hub
+Preschool Storytime,10:00,10:30,Wednesday,Caroline Springs Library & Learning Hub
+Preschool Storytime,10:00,10:30,Tuesday,Melton Library & Learning Hub
+Family Tales,11:00,11:30,Saturday,Caroline Springs Library & Learning Hub
+After Schooligans,15:45,16:30,Tuesday,Melton Library & Learning Hub
+After Schooligans,15:45,16:30,Tuesday,Caroline Springs Library & Learning Hub
+Rhythm and Rhymes,10:30,11:00,Monday,Hyphen Wodonga
+Stars,10:30,11:30,Thursday,Hyphen Wodonga
+Cuddles,10:30,11:00,Friday,Hyphen Wodonga
+Stay and Play,11:00,11:30,Monday,Hyphen Wodonga
+Stay and Play,11:00,11:30,Friday,Hyphen Wodonga
+Baby Rhyme Time,10:00,10:45,Tuesday,Doveton Library
+Baby Rhyme Time,10:15,11:00,Tuesday,Endeavour Hills Library
+Baby Rhyme Time,10:30,11:15,Tuesday,Cranbourne West Library Lounge
+Baby Rhyme Time,11:00,11:45,Tuesday,Hampton Park Library
+Storytime,10:00,10:45,Wednesday,Clyde Township Family and Community Centre
+Evening Storytime,18:30,19:15,Wednesday,Cranbourne Library
+Family Storytime,10:30,11:15,Thursday,Cranbourne West Library Lounge
+Storytime,10:00,10:45,Tuesday,Manna Gum Community Centre
+Storytime,10:00,10:45,Monday,Doveton Library
+Storytime,10:00,10:45,Monday,Orana Community Place
+Storytime,11:00,11:45,Monday,Endeavour Hills Library
+Afterschool Storytime,16:00,16:45,Monday,Doveton Library
+Storytime,11:00,11:45,Thursday,Hampton Park Library
+Storytime,10:00,10:45,Wednesday,Casey Central Shopping Centre
+Storytime,11:00,11:45,Friday,Endeavour Hills Shopping Centre
+Storytime,11:00,11:45,Wednesday,Bunjil Place Library
+Storytime,10:15,11:00,Monday,Pakenham Library
+Storytime,11:15,12:00,Thursday,Emerald Library
+Toddler Time,10:30,11:15,Tuesday,Cranbourne Library
+Toddler Time,11:15,12:00,Tuesday,Bunjil Place Library
+Baby Rhyme Time,10:30,11:00,Wednesday,Pakenham Library
+Baby Rhyme Time,11:15,11:45,Monday,Emerald Library
+Kids' Art Workshops,10:00,12:00,Tuesday,Cardinia Cultural Centre
+LEGO Club,16:00,17:00,Thursday,Emerald Library
+Toddler Time,11:15,11:45,Friday,Emerald Library
+Storytime,11:15,12:00,Thursday,Emerald Library
+LEGO Club,16:00,17:00,Thursday,Mirboo North Library
+Toddler Time,11:00,11:30,Tuesday,Pakenham Library
+LEGO Play,15:30,16:30,Friday,Leongatha Library
+Storytime,11:00,11:45,Wednesday,Korumburra Library
+Storytime,10:30,11:15,Wednesday,Leongatha Library
+Baby Rhyme Time,11:00,11:30,Tuesday,Leongatha Library
+Storytime,11:00,11:45,Thursday,Pakenham Library
+Homework Support,16:00,17:00,Wednesday,Pakenham Library
+Storytime,10:30,11:15,Tuesday,Inverloch Library
+Baby Rhyme Time,11:30,12:00,Tuesday,Inverloch Library
+Storytime,11:00,11:45,Thursday,Foster Library
+Storytime,10:30,11:15,Wednesday,Warragul Library
+Baby Rhyme Time,10:30,11:00,Tuesday,Mirboo North Library
+Baby Rhyme Time,10:30,11:00,Wednesday,Wonthaggi Library
+Magic of Storytime,11:00,12:00,Friday,Portland Library
+Heywood Rhythm & Rhymes Road Trip,10:30,11:15,Tuesday,Heywood Library
+Casterton Rhythm & Rhymes Road Trip,10:00,10:45,Thursday,Casterton Masonic Lodge (Playgroup Building)
+Portland Rhymetime,11:00,11:30,Tuesday,Portland Library
+Storytime,11:00,12:00,Friday,Portland Library

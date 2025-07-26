@@ -1,0 +1,452 @@
+name,start_time,end_time,day,location
+Baby Rhyme Time,09:30,10:00,Monday,Redcliffe Library
+Baby Rhyme Time,09:30,10:00,Tuesday,Redcliffe Library
+Baby Rhyme Time,09:30,10:00,Thursday,Redcliffe Library
+Baby Rhyme Time,09:30,10:00,Friday,Redcliffe Library
+Baby Rhyme Time,09:30,10:00,Saturday,Redcliffe Library
+Baby Rhyme Time,09:30,10:00,Tuesday,Arana Hills Library
+Baby Rhyme Time,09:30,10:00,Wednesday,Arana Hills Library
+Baby Rhyme Time,09:30,10:00,Saturday,Arana Hills Library
+Baby Rhyme Time,09:30,10:00,Monday,Caboolture Library
+Baby Rhyme Time,09:30,10:00,Tuesday,Caboolture Library
+Baby Rhyme Time,09:30,10:00,Wednesday,Caboolture Library
+Baby Rhyme Time,09:30,10:00,Thursday,Caboolture Library
+Baby Rhyme Time,09:30,10:00,Friday,Caboolture Library
+Baby Rhyme Time,09:30,10:00,Wednesday,Deception Bay Library
+Baby Rhyme Time,09:30,10:00,Friday,Deception Bay Library
+Baby Rhyme Time,09:30,10:00,Tuesday,Burpengary Library
+Baby Rhyme Time,09:30,10:00,Thursday,Burpengary Library
+Baby Rhyme Time,09:30,10:00,Tuesday,Bribie Island Library
+Baby Rhyme Time,09:30,10:00,Thursday,Bribie Island Library
+Baby Rhyme Time,09:30,10:00,Saturday,Bribie Island Library
+Baby Rhyme Time,09:30,10:00,Tuesday,North Lakes Library
+Baby Rhyme Time,09:30,10:00,Wednesday,North Lakes Library
+Baby Rhyme Time,09:30,10:00,Friday,North Lakes Library
+Baby Rhyme Time,11:00,11:30,Monday,North Lakes Library
+Baby Rhyme Time,11:00,11:30,Thursday,North Lakes Library
+Baby Rhyme Time,11:00,11:30,Sunday,North Lakes Library
+Baby Rhyme Time,10:30,11:00,Wednesday,Albany Creek Library
+Baby Rhyme Time,10:30,11:00,Saturday,Albany Creek Library
+Baby Rhyme Time,09:30,10:00,Tuesday,Albany Creek Library
+Baby Rhyme Time,10:30,11:00,Monday,Woodford Library
+Baby Rhyme Time,10:30,11:00,Wednesday,Woodford Library
+Baby Rhyme Time,09:30,10:00,Wednesday,Strathpine Library
+Baby Rhyme Time,09:30,10:00,Friday,Strathpine Library
+Baby Rhyme Time,11:00,11:30,Wednesday,Mount Glorious Mobile Library Stop
+Storytime,10:30,11:00,Tuesday,Arana Hills Library
+Storytime,10:30,11:00,Wednesday,Arana Hills Library
+Storytime,10:30,11:00,Thursday,Arana Hills Library
+Storytime,09:30,10:00,Monday,Bribie Island Library
+Storytime,09:30,10:00,Wednesday,Bribie Island Library
+Storytime,09:30,10:00,Friday,Bribie Island Library
+Storytime,10:30,11:00,Tuesday,Burpengary Library
+Storytime,10:30,11:00,Wednesday,Burpengary Library
+Storytime,10:30,11:00,Saturday,Burpengary Library
+Storytime,10:00,10:30,Wednesday,Caboolture Library
+Storytime,10:00,10:30,Saturday,Caboolture Library
+Storytime,11:00,11:30,Tuesday,Caboolture Library
+Storytime,11:00,11:30,Thursday,Caboolture Library
+Storytime,11:00,11:30,Saturday,Caboolture Library
+Storytime,10:30,11:00,Tuesday,Albany Creek Library
+Storytime,10:30,11:00,Friday,Albany Creek Library
+Storytime,11:00,11:30,Saturday,Deception Bay Library
+Storytime,11:00,11:30,Tuesday,Deception Bay Library
+Storytime,09:30,10:00,Monday,North Lakes Library
+Storytime,09:30,10:00,Thursday,North Lakes Library
+Storytime,11:00,11:30,Wednesday,North Lakes Library
+Storytime,10:30,11:00,Saturday,North Lakes Library
+Storytime,10:30,11:00,Sunday,North Lakes Library
+Storytime,10:30,11:00,Friday,Redcliffe Library
+Storytime,10:30,11:00,Tuesday,Redcliffe Library
+Storytime,10:30,11:00,Wednesday,Redcliffe Library
+Storytime,09:30,10:00,Saturday,Strathpine Library
+Storytime,09:30,10:00,Thursday,Strathpine Library
+Storytime,10:30,11:00,Friday,Woodford Library
+Play Tales,09:30,10:00,Thursday,Pine Rivers Park
+Play Tales,10:30,11:00,Thursday,Pine Rivers Park
+Play Tales,09:30,10:00,Thursday,The Hills District All Abilities Park
+Play Tales,10:30,11:00,Thursday,The Hills District All Abilities Park
+Play Tales,09:30,10:00,Tuesday,CREEC All Abilities Playground
+Play Tales,10:30,11:00,Tuesday,CREEC All Abilities Playground
+Play Tales,09:30,10:00,Tuesday,CREEC All Abilities Playground
+Play Tales,10:30,11:00,Tuesday,CREEC All Abilities Playground
+Play Tales,09:30,10:00,Monday,Blatchford Recreation Reserve
+Play Tales,10:30,11:00,Monday,Blatchford Recreation Reserve
+Play Tales,09:30,10:00,Saturday,Brennan Park
+Play Tales,10:30,11:00,Saturday,Brennan Park
+Play Tales,09:30,10:00,Sunday,Brennan Park
+Play Tales,10:30,11:00,Sunday,Brennan Park
+Play Tales,09:30,10:00,Sunday,Central Lakes Park
+Play Tales,10:30,11:00,Sunday,Central Lakes Park
+Play Tales,09:30,10:00,Sunday,Central Lakes Park
+Play Tales,10:30,11:00,Sunday,Central Lakes Park
+Play Tales,09:30,10:00,Tuesday,Youth Park
+Play Tales,10:30,11:00,Tuesday,Youth Park
+Play Tales,09:30,10:00,Tuesday,Clayton Park
+Play Tales,10:30,11:00,Tuesday,Clayton Park
+Play Tales,09:30,10:00,Monday,Spinnaker Park
+Play Tales,10:30,11:00,Monday,Spinnaker Park
+Play Tales,09:30,10:00,Saturday,Spinnaker Park
+Play Tales,10:30,11:00,Saturday,Spinnaker Park
+Play Tales,09:30,10:00,Sunday,Roderick A Cruice Park
+Play Tales,10:30,11:00,Sunday,Roderick A Cruice Park
+Play Tales,09:30,10:00,Sunday,Roderick A Cruice Park
+Play Tales,10:30,11:00,Sunday,Roderick A Cruice Park
+Play Tales,09:30,10:00,Thursday,Symphony Crescent Park
+Play Tales,10:30,11:00,Thursday,Symphony Crescent Park
+Play Tales,09:30,10:00,Thursday,Bluebell Street Park
+Play Tales,10:30,11:00,Thursday,Bluebell Street Park
+Play Tales,09:30,10:00,Thursday,Kumbartcho Sanctuary
+Play Tales,10:30,11:00,Thursday,Kumbartcho Sanctuary
+Signed Story Time,11:00,11:30,1st Tuesday of the Month,Caboolture Library
+Signed Story Time,10:30,11:00,1st Sunday of the Month,Redcliffe Library
+Signed Story Time,09:30,10:00,4th Thursday of the Month,Strathpine Library
+Signed Story Time,10:30,11:00,2nd Tuesday of the Month,North Lakes Library
+Pyjama Storytime,18:00,18:30,Tuesday,Caboolture Library
+Pyjama Storytime,18:30,19:00,Tuesday,Strathpine Library
+Pyjama Storytime,18:30,19:00,Thursday,North Lakes Library
+Playtime,09:15,09:45,Friday,Albany Creek Library
+Playtime,09:15,09:45,Wednesday,Albany Creek Library
+Playtime,09:30,10:00,Friday,Arana Hills Library
+Playtime,09:30,10:00,Monday,Arana Hills Library
+Playtime,09:30,10:00,Thursday,Arana Hills Library
+Playtime,10:00,10:30,Friday,Bribie Island Library
+Playtime,10:00,10:30,Monday,Bribie Island Library
+Playtime,09:30,10:00,Friday,Burpengary Library
+Playtime,09:30,10:00,Monday,Burpengary Library
+Playtime,09:30,10:00,Friday,Burpengary Library
+Playtime,10:30,11:00,Sunday,Caboolture Library
+Playtime,10:00,10:30,Friday,Caboolture Library
+Playtime,10:00,10:30,Monday,Caboolture Library
+Playtime,10:00,10:30,Monday,North Lakes Library
+Playtime,10:00,10:30,Friday,North Lakes Library
+Playtime,10:30,11:00,Monday,Redcliffe Library
+Playtime,09:30,10:00,Wednesday,Redcliffe Library
+Playtime,11:00,11:30,Friday,Woodford Library
+Playtime,11:00,11:30,Monday,Woodford Library
+Playtime,11:00,11:30,Wednesday,Woodford Library
+Playtime,10:30,11:00,Saturday,Woodford Library
+Playtime,10:30,11:00,Monday,Strathpine Library
+Playtime,10:00,10:30,Friday,Strathpine Library
+Playtime,10:30,11:00,Monday,Deception Bay Library
+Playtime,10:30,11:00,Thursday,Deception Bay Library
+Baby Time,10:00,10:30,Wednesday,Beenleigh Library
+Baby Time,10:00,10:30,Thursday,Beenleigh Library
+Baby Time,14:00,14:30,Tuesday,Greenbank Library
+Baby Time,10:00,10:30,Thursday,Jimboomba Library
+Baby Time,10:15,10:45,Monday,Logan Hyperdome Library
+Baby Time,10:15,10:45,Wednesday,Logan Hyperdome Library
+Baby Time,10:00,10:30,Friday,Logan North Library
+Baby Time,10:00,10:30,Wednesday,Logan West Library
+Baby Time,10:00,10:30,Friday,Logan West Library
+Baby Time,10:00,10:30,Friday,Marsden Library
+Play and learn,11:30,12:00,Wednesday,Logan North Library
+Play and learn,11:00,11:30,Thursday,Jimboomba Library
+Story time,11:00,11:30,Wednesday,Beenleigh Library
+Story time,10:30,11:00,Wednesday,Greenbank Library
+Story time,10:30,11:00,Monday,Jimboomba Library
+Story time,10:00,10:30,Monday,Logan Central Library
+Story time,10:00,10:30,Wednesday,Logan Central Library
+Story time,11:15,11:45,Wednesday,Logan Hyperdome Library
+Story time,11:00,11:30,Wednesday,Logan North Library
+Story time,11:00,11:30,Wednesday,Logan West Library
+Story time: Tui 'n' friends,11:00,11:30,Wednesday,Beenleigh Library
+Story time: Tui 'n' friends,11:00,11:30,Friday,Logan West Library
+Story time: Tui 'n' friends,11:00,11:30,Wednesday,Marsden Library
+Story time: Tui 'n' friends,11:00,11:30,Wednesday,Logan North Library
+"Story time in the Park at Funderwood Hollow, Priestdale",09:30,10:00,Wednesday,Forestglen Park
+"Story time in the Park at Funderwood Hollow, Priestdale",09:30,10:00,Thursday,Forestglen Park
+Splash into stories at Logan North Library,09:30,10:00,Tuesday,Logan North Library
+Toddler Time,09:30,10:00,Wednesday,Victoria Point Library
+Story Time,10:15,10:45,Wednesday,Victoria Point Library
+Baby Time,11:00,11:30,Wednesday,Victoria Point Library
+Parent & Prams - Explore Special You!,09:30,10:00,Wednesday,Redland Art Gallery
+Parent & Prams - Explore Special You!,10:30,11:00,Wednesday,Redland Art Gallery
+Parent & Prams - Explore Special You!,11:30,12:00,Wednesday,Redland Art Gallery
+Toddler Time,09:30,10:00,Thursday,Capalaba Library
+Story Time,10:15,10:45,Thursday,Capalaba Library
+Baby Time,11:00,11:30,Thursday,Capalaba Library
+Buddies Community Playgroup,08:45,10:30,Friday,Redlands College Hall
+Friday story time fun!,09:30,10:00,Friday,Cleveland Library
+Friday story time fun!,09:30,10:00,Friday,Victoria Point Library
+Friday story time fun!,09:30,10:00,Friday,Capalaba Library
+Saturday story time,09:30,10:15,Saturday,Cleveland Library
+Pop up library,09:30,10:30,Monday,Thornlands Community Park
+Toddler time,09:30,10:00,Tuesday,Cleveland Library
+Story time,10:15,10:45,Tuesday,Cleveland Library
+Baby time,11:00,11:30,Tuesday,Cleveland Library
+Baby Rhyme Time,09:30,10:00,Wednesday,Springfield Central Library
+Baby Rhyme Time,11:00,11:30,Wednesday,Springfield Central Library
+Baby Rhyme Time,09:30,10:00,Wednesday,Leichhardt One Mile Community Centre
+Baby Rhyme Time,10:30,11:00,Monday,Redbank Plains Library
+Story Time,09:30,10:00,Tuesday,Ipswich Children's Library
+Story Time,09:30,10:00,Tuesday,Springfield Central Library
+Story Time,10:30,11:00,Wednesday,Redbank Plaza Library
+Story Time,09:30,10:00,Thursday,Ipswich Children's Library
+Story Time,09:30,10:00,Friday,Springfield Central Library
+Story Time,10:30,11:00,Wednesday,Rosewood Library
+Story Time,09:30,10:00,Thursday,Ipswich Children's Library
+Toddler Time,10:30,11:00,Tuesday,Ipswich Children's Library
+Toddler Time,10:30,11:00,Tuesday,Springfield Central Library
+Toddler Time - Auslan,10:30,11:00,Thursday,Ipswich Children's Library
+Toddler Time - Auslan,10:30,11:00,Friday,Springfield Central Library
+Toddler Time - with a Speech Pathologist,10:30,11:00,Thursday,Springfield Central Library
+Toddler Time - with a Speech Pathologist,10:30,11:00,Tuesday,Ipswich Children's Library
+Toddler Time,10:30,11:00,Thursday,Ipswich Children's Library
+Toddler Time,10:30,11:00,Friday,Springfield Central Library
+Dive Into Books,10:00,10:30,Thursday,Leichhardt Community Pool
+Story Time at Bunnings,10:00,10:30,Tuesday,Bunnings Springfield
+Story Time at Bunnings,10:00,10:30,Tuesday,Bunnings Bundamba
+Story Time at the Park,09:30,10:00,Friday,Queens Park Environmental Education Centre
+Story Time at the Park,10:00,10:30,Friday,Queens Park Environmental Education Centre
+Babes in Arms,09:00,09:30,Tuesday,Noosaville Library
+Storytime,10:00,10:30,Tuesday,Noosaville Library
+Babes in Arms,09:00,09:30,Wednesday,Cooroy Library
+Storytime,10:00,10:30,Wednesday,Cooroy Library
+Storytime,09:30,10:30,Tuesday,Beerwah Library
+Storytime,09:30,10:30,Wednesday,Caloundra Library
+Storytime,09:30,10:30,Thursday,Coolum Library
+Storytime,09:30,10:30,Thursday,Kawana Library
+Storytime,09:30,10:30,Wednesday,Kenilworth Library
+Storytime,09:30,10:30,Tuesday,Maleny Library
+Storytime,09:30,10:30,Tuesday,Maroochydore Library
+Storytime,09:30,10:30,Wednesday,Nambour Library
+Rhymetime,09:30,10:00,Friday,Beerwah Library
+Rhymetime,09:30,10:00,Tuesday,Caloundra Library
+Rhymetime,09:30,10:00,Thursday,Caloundra Library
+Rhymetime,09:30,10:00,Wednesday,Coolum Library
+Rhymetime,10:30,11:00,Wednesday,Coolum Library
+Rhymetime,09:30,10:00,Tuesday,Kawana Library
+Rhymetime,10:00,10:30,Wednesday,Kawana Library
+Rhymetime,09:30,10:00,Friday,Maleny Library
+Rhymetime,10:30,11:00,Monday,Maroochydore Library
+Rhymetime,09:30,10:00,Wednesday,Maroochydore Library
+Rhymetime,10:30,11:00,Thursday,Maroochydore Library
+Rhymetime,09:30,10:00,Tuesday,Nambour Library
+Rhymetime,10:30,11:00,Tuesday,Nambour Library
+Storytime,10:00,10:30,Tuesday,Runaway Bay Library
+Storytime,10:00,10:30,Saturday,Runaway Bay Library
+Toddler Time,09:30,10:00,Tuesday,Ormeau Community Lounge & Library
+Baby Rhyme Time,10:00,10:30,Tuesday,Elanora Library
+Baby Rhyme Time,10:00,10:30,Tuesday,Helensvale Library
+Baby Rhyme Time,10:00,10:30,Tuesday,Broadbeach Library
+Baby Rhyme Time,10:00,10:30,Tuesday,Robina Library
+Storytime,10:00,10:30,Tuesday,Upper Coomera Library
+Storytime,10:00,10:30,Tuesday,Nerang Library
+Storytime,10:00,10:30,Tuesday,Southport Library
+Toddler Time,10:00,10:30,Tuesday,Burleigh Heads Library
+Toddler Time,11:00,11:30,Tuesday,Robina Library
+Baby Rhyme Time,10:00,10:30,Wednesday,Upper Coomera Library
+Baby Rhyme Time,10:00,10:30,Wednesday,Southport Library
+Storytime,10:00,10:30,Wednesday,Burleigh Waters Library
+Storytime,10:00,10:30,Wednesday,Elanora Library
+Storytime,10:00,10:30,Wednesday,Broadbeach Library
+Toddler Time,10:00,10:30,Wednesday,Nerang Library
+Toddler Time,10:00,10:30,Wednesday,Coolangatta Library
+Toddler Time,10:00,10:30,Wednesday,Helensvale Library
+Toddler Time,10:00,10:30,Wednesday,Runaway Bay Library
+Baby Rhyme Time,09:30,10:00,Thursday,Runaway Bay Library
+Baby Rhyme Time,10:00,10:30,Thursday,Runaway Bay Library
+Baby Rhyme Time,10:00,10:30,Thursday,Nerang Library
+Baby Rhyme Time,10:00,10:30,Thursday,Burleigh Waters Library
+Toddler Time,10:00,10:30,Thursday,Upper Coomera Library
+Toddler Time,10:00,10:30,Thursday,Broadbeach Library
+Toddler Time,10:00,10:30,Thursday,Southport Library
+Toddler Time,10:00,10:30,Thursday,Elanora Library
+Storytime,09:30,10:00,Friday,Ormeau Community Lounge & Library
+Baby Rhyme Time,10:00,10:30,Friday,Burleigh Heads Library
+Storytime,10:00,10:30,Friday,Helensvale Library
+Toddler Time,10:30,11:00,Friday,Burleigh Waters Library
+Storytime,10:00,10:30,Sunday,Robina Library
+Baby Rhyme Time,10:00,10:30,Monday,Coolangatta Library
+Signed Storytime,09:30,10:00,Friday,Ormeau Community Lounge & Library
+"Babies, Books and Rhymes",09:30,10:00,Wednesday,Ashgrove Library
+"Babies, Books and Rhymes",09:15,09:45,Friday,Annerley Library
+"Babies, Books and Rhymes",11:30,12:00,Thursday,Banyo Library
+"Babies, Books and Rhymes",10:00,10:30,Friday,Bracken Ridge Library
+"Babies, Books and Rhymes",11:30,12:00,Thursday,Brisbane Square Library
+"Babies, Books and Rhymes",10:00,10:30,Thursday,Bulimba Library
+"Babies, Books and Rhymes",10:30,11:00,Monday,Carina Library
+"Babies, Books and Rhymes",10:00,10:30,Wednesday,Carindale Library
+"Babies, Books and Rhymes",11:00,11:30,Tuesday,Chermside Library
+"Babies, Books and Rhymes",11:00,11:30,Wednesday,Chermside Library
+"Babies, Books and Rhymes",10:00,10:30,Thursday,Coopers Plains Library
+"Babies, Books and Rhymes",09:15,09:45,Friday,Corinda Library
+"Babies, Books and Rhymes",11:00,11:30,Tuesday,Everton Park Library
+"Babies, Books and Rhymes",10:30,11:00,Monday,Garden City Library
+"Babies, Books and Rhymes",09:30,10:00,Wednesday,Fairfield Library
+"Babies, Books and Rhymes",11:15,11:45,Thursday,Grange Library
+"Babies, Books and Rhymes",09:30,10:00,Thursday,Hamilton Library
+"Babies, Books and Rhymes",14:00,14:30,Wednesday,Holland Park Library
+"Babies, Books and Rhymes",14:00,14:30,Tuesday,Inala Library
+"Babies, Books and Rhymes",10:15,10:45,Monday,Indooroopilly Library
+"Babies, Books and Rhymes",09:30,10:00,Friday,Kenmore Library
+"Babies, Books and Rhymes",11:00,11:30,Friday,Mitchelton Library
+"Babies, Books and Rhymes",09:30,10:00,Friday,Mt Gravatt Library
+"Babies, Books and Rhymes",09:30,10:00,Wednesday,Mt Ommaney Library
+"Babies, Books and Rhymes",11:00,11:30,Wednesday,New Farm Library
+"Babies, Books and Rhymes",09:30,10:00,Thursday,Nundah Library
+"Babies, Books and Rhymes",10:00,10:30,Friday,Sandgate Library
+"Babies, Books and Rhymes",09:30,10:00,Friday,Stones Corner Library
+"Babies, Books and Rhymes",10:30,11:00,Monday,Sunnybank Hills Library
+"Babies, Books and Rhymes",11:15,11:45,Tuesday,Toowong Library
+"Babies, Books and Rhymes",09:15,09:45,Wednesday,West End Library
+"Babies, Books and Rhymes",09:15,09:45,Friday,Wynnum Library
+"Babies, Books and Rhymes",10:30,11:00,Thursday,Zillmere Library
+Chatter Play,13:30,14:00,Thursday,Inala Library
+Toddler Time,09:15,09:45,Friday,West End Library
+Toddler Time,09:30,10:00,Friday,Nundah Library
+Toddler Time,10:00,10:30,Friday,Mitchelton Library
+Toddler Time,10:00,10:30,Friday,Coopers Plains Library
+Toddler Time,10:00,10:30,Friday,Chermside Library
+Toddler Time,10:15,10:45,Friday,Wynnum Library
+Toddler Time,11:00,11:30,Friday,Sandgate Library
+Toddler Time,09:15,09:45,Monday,Annerley Library
+Toddler Time,09:30,10:00,Monday,Indooroopilly Library
+Toddler Time,09:45,10:15,Monday,Sunnybank Hills Library
+Toddler Time,10:00,10:30,Monday,Carindale Library
+Toddler Time,09:30,10:00,Tuesday,Bulimba Library
+Toddler Time,10:00,10:30,Tuesday,Carindale Library
+Toddler Time,10:15,10:45,Tuesday,Everton Park Library
+Toddler Time,10:30,11:00,Tuesday,Mt Gravatt Library
+Toddler Time,10:30,11:00,Tuesday,Brisbane Square Library
+Toddler Time,14:00,14:30,Tuesday,Carina Library
+Toddler Time,09:30,10:00,Wednesday,Kenmore Library
+Toddler Time,09:30,10:00,Wednesday,New Farm Library
+Toddler Time,10:00,10:30,Wednesday,Bracken Ridge Library
+Toddler Time,10:30,11:00,Wednesday,Mt Ommaney Library
+Toddler Time,10:30,11:00,Wednesday,Garden City Library
+Toddler Time,10:30,11:00,Wednesday,Fairfield Library
+Toddler Time,11:00,11:30,Wednesday,Toowong Library
+Toddler Time,09:15,09:45,Thursday,Corinda Library
+Toddler Time,09:30,10:00,Thursday,Stones Corner Library
+Toddler Time,09:30,10:00,Thursday,Ashgrove Library
+Toddler Time,10:15,10:45,Thursday,Holland Park Library
+Toddler Time,10:30,11:00,Thursday,Banyo Library
+Toddler Time,10:30,11:00,Thursday,Grange Library
+Children’s storytime (Cantonese),10:30,11:00,Friday,Garden City Library
+Children's storytime,10:30,11:00,Friday,Grange Library
+Children's storytime,10:30,11:00,Friday,Carina Library
+"Children's storytime in the park - Dorrington Park, Ashgrove",09:30,10:00,Friday,Dorrington Park (Pop-up Library)
+"Children's storytime in the park - Dorrington Park, Ashgrove",10:30,11:00,Friday,Dorrington Park (Pop-up Library)
+Children’s storytime (Mandarin),15:30,16:30,Friday,Garden City Library
+Children's storytime,09:30,10:00,Saturday,Sunnybank Hills Library
+First 5 Forever Jarjum stories,10:00,10:30,Saturday,Mt Ommaney Library
+Children's storytime,10:30,11:00,Sunday,Garden City Library
+"Children’s storytime in the park - 7th Brigade Park, Chermside",09:30,10:00,Monday,7th Brigade Park
+"Children’s storytime in the park - 7th Brigade Park, Chermside",10:30,11:00,Monday,7th Brigade Park
+Children's storytime,10:30,11:00,Monday,Ashgrove Library
+Children's storytime,11:00,11:30,Monday,Annerley Library
+Children's storytime,11:00,11:30,Monday,Toowong Library
+Children’s storytime (Arabic),12:30,13:00,Monday,Garden City Library
+Children's storytime,10:00,10:30,Tuesday,Kenmore Library
+Children's storytime (Korean),10:30,11:00,Tuesday,Garden City Library
+"Children’s storytime in the park - Wynnum Wading Pool Park, Wynnum",09:30,10:00,Wednesday,Wynnum Wading Pool Park
+Children's storytime,10:00,10:30,Wednesday,Mitchelton Library
+"Children’s storytime in the park - Wynnum Wading Pool Park, Wynnum",10:30,11:00,Wednesday,Wynnum Wading Pool Park
+First 5 Forever Jarjum stories,10:30,11:00,Wednesday,Brisbane Square Library
+"Children’s storytime in the park - Pallara Park, Pallara",09:30,10:00,Thursday,Pallara Park
+Children's storytime,10:00,10:30,Thursday,Indooroopilly Library
+"Children’s storytime in the park - Pallara Park, Pallara",10:30,11:00,Thursday,Pallara Park
+Nature Play,11:00,11:30,Thursday,Holland Park Library
+Family STEM Night,16:00,17:00,Thursday,Chermside Library
+Family STEM Night,17:00,18:00,Thursday,Sunnybank Hills Library
+Family STEM Night,13:30,14:30,Saturday,Brisbane Square Library
+Auslan Storytime,10:00,11:00,Saturday,Citylibraries Flinders Street
+Baby Rhyme Time,10:30,11:20,Tuesday,Citylibraries Riverway
+Baby Rhyme Time,09:00,09:50,Thursday,Citylibraries Aitkenvale
+Baby Stay and Play,09:00,10:00,Friday,Citylibraries Riverway
+Little Bang,10:30,11:30,Saturday,Citylibraries Riverway
+Messy Play in the Park,09:00,11:00,Monday,Bluewater Park Playground
+Songtime in the Park,08:30,11:00,Thursday,Oonoonba Park
+Storytime,08:30,09:30,Saturday,Citylibraries Riverway
+Toddler Time,09:00,09:50,Tuesday,Citylibraries Riverway
+Toddler Time,10:30,11:20,Thursday,Citylibraries Aitkenvale
+Story Time,09:30,10:00,Friday,Dudley Denny City Library
+Baby Bounce,11:00,11:30,Friday,Walkerston Library
+Baby Bounce,10:00,10:30,Monday,Dudley Denny City Library
+Story Time,09:30,10:00,Monday,Mirani Library
+Story Time,09:30,10:00,Monday,Sarina Library
+Dads ‘n’ Bubs Baby Bounce,10:00,10:30,Saturday,Dudley Denny City Library
+Baby Bounce,11:00,11:30,Thursday,Gordon White Library
+Baby Bounce,09:30,10:00,Tuesday,Mirani Library
+Baby Bounce,09:30,10:00,Tuesday,Sarina Library
+Multiples Chatterplay,09:30,10:00,Tuesday,Gordon White Library
+Story Time,09:30,10:00,Tuesday,Walkerston Library
+Story Time,09:30,10:00,Wednesday,Gordon White Library
+Read and Play,09:30,11:00,Tuesday,Southside Library
+Crafternoon,15:30,16:30,Friday,Northside Library
+Crafternoon,16:00,17:00,Tuesday,Gracemere Library
+Read and Play,10:00,11:00,Wednesday,Northside Library
+Read and Play,10:00,11:00,Thursday,Gracemere Library
+Sing and Play,09:30,11:00,Friday,Southside Library
+Baby Rattle & Rhyme,10:00,10:30,Monday,Bundaberg Library
+Toddler Sing & Smile,10:00,10:30,Wednesday,Bundaberg Library
+Learn & Play Storytime,10:00,10:30,Thursday,Bundaberg Library
+Story Time,10:00,10:30,Wednesday,Childers Library
+Story Play,09:30,10:00,Monday,Gin Gin Library
+First 5 Forever Pop-Ups - Tales Under the Trees,10:30,11:00,Thursday,Pier Park
+First 5 Forever Pop-Ups - Tales Under the Trees,10:30,11:00,Thursday,"Hervey Bay, Bunnings"
+Rattle and Rhyme,09:30,10:00,Monday,Hervey Bay Library
+Rattle and Rhyme,09:30,10:00,Tuesday,Hervey Bay Library
+Rattle and Rhyme,09:30,10:00,Wednesday,Hervey Bay Library
+Rattle and Rhyme,09:30,10:00,Friday,Hervey Bay Library
+Rattle and Rhyme,09:30,10:00,Tuesday,Maryborough Library
+Rattle and Rhyme,09:30,10:00,Wednesday,Maryborough Library
+Toddler Time,10:30,11:00,Tuesday,Hervey Bay Library
+Toddler Time,10:30,11:00,Tuesday,Maryborough Library
+Toddler Time,10:30,11:00,Wednesday,Maryborough Library
+Toddler Time,10:30,11:00,Tuesday,Howard Library
+Toddler Time,10:30,11:00,Thursday,Tiaro Library
+Storytime,10:30,11:15,Monday,Hervey Bay Library
+Storytime,10:30,11:15,Wednesday,Hervey Bay Library
+Storytime,10:30,11:15,Friday,Hervey Bay Library
+Storytime,10:30,11:15,Saturday,Hervey Bay Library
+Playtime,11:30,12:00,Monday,Hervey Bay Library
+Playtime,11:30,12:00,Wednesday,Hervey Bay Library
+Playtime,11:30,12:00,Friday,Hervey Bay Library
+Lego Legends,15:30,16:30,Tuesday,Hervey Bay Library
+Lego Legends,15:30,16:30,Tuesday,Maryborough Library
+Hervey Bay Saturday Family Fun Drop In,14:00,15:00,Saturday,Hervey Bay Library
+Read + Play,09:30,10:00,Friday,Cecil Plains Library
+Read + Play,10:00,10:30,Tuesday,Clifton Library
+Read + Play,09:30,10:00,Monday,Crows Nest John French VC Memorial Library
+Read + Play,09:00,09:30,Thursday,Goombungee Library
+Read + Play,10:00,10:30,Friday,Highfields Library
+Read + Play,10:30,11:00,Saturday,Highfields Library
+Read + Play,10:00,10:30,Thursday,Millmerran Library
+Read + Play,10:00,10:30,Wednesday,Pittsworth Library
+Read + Play,09:30,10:00,2nd Tuesday,Quinalow Library
+Read + Play,09:30,10:00,Monday,Toowoomba City Library
+Read + Play,09:30,10:00,Wednesday,Toowoomba City Library
+Read + Play,10:15,10:45,Wednesday,Yarraman Library
+Sing + Play,11:00,11:30,Thursday,Toowoomba City Library
+Sing + Play,11:00,11:30,Tuesday,Toowoomba City Library
+Sing + Play,09:30,10:00,Thursday,Highfields Library
+Sing + Play,09:30,10:00,Tuesday,Highfields Library
+Read + Play,10:00,10:30,Wednesday,Highfields Library
+Read + Play,10:00,10:30,Tuesday,Oakey Library
+"Talk, Read, Sing + Play in the Community",10:00,10:30,Wednesday,Queens Park Toowoomba
+"Talk, Read, Sing + Play in the Community",10:00,10:30,Tuesday,Birch Court Park
+STEAM Storytime,10:00,10:30,Monday,Manunda Library
+Baby Rhyme Time,10:00,10:30,Monday,Earlville Library
+Storytime,10:00,10:30,Monday,Manunda Library
+Baby Rhyme Time,10:00,10:30,Tuesday,Stratford Library
+Storytime,10:00,10:30,Tuesday,Smithfield Library
+Learning English through Storytime (LETS),10:00,10:30,Tuesday,City Library
+Baby Rhyme Time,10:00,10:30,Wednesday,Manunda Library
+Toddler Time,10:00,10:30,Wednesday,City Library
+Toddler Rockers,10:00,10:30,Wednesday,City Library
+Sing and Play,10:30,11:00,Wednesday,Manunda Library
+Baby Rhyme Time,10:00,10:30,Thursday,Stratford Library
+Play and Discover,10:00,10:30,Thursday,Earlville Library
+Sing and Play,10:30,11:00,Thursday,Stratford Library
+Story and Play,10:00,10:30,Friday,Gordonvale Library
+Sing a Song,10:00,10:30,Friday,Manunda Library
+Baby Rhyme Time,10:00,10:30,Friday,Smithfield Library
+Auslan Storytime,10:30,11:00,Saturday,Earlville Library
+Sing a Song,10:00,10:30,Sunday,City Library
+Art Tales,10:00,10:30,Tuesday,Smithfield Library
+Little Movers Active Play,15:30,16:00,Tuesday,Stratford Library
+Bulkaway Muruku Baby Rhyme Time,10:00,10:30,Monday,Earlville Library
+Toddler Rockers,10:30,11:00,Saturday,Earlville Library

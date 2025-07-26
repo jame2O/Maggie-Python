@@ -1,0 +1,97 @@
+name,start_time,end_time,day,location
+Baby Time,11:00,11:30,Friday,Goonellabah Community Centre
+Story Time,10:30,11:00,Tuesday,Goonellabah Community Centre
+Toddler Time,10:00,10:30,Friday,Goonellabah Community Centre
+Baby Time,10:00,10:30,Tuesday,Tweed Heads Civic and Cultural Centre
+Baby Time,10:00,10:30,Friday,Tweed Heads Civic and Cultural Centre
+Story Time,11:00,11:30,Wednesday,Tweed Heads Civic and Cultural Centre
+Discovery Time,15:30,16:30,Thursday,Tweed Heads Civic and Cultural Centre
+Baby Time,10:00,10:30,Monday,Kingcliff Library
+Crafternoons,15:30,16:30,Tuesday,Kingcliff Library
+Story Time,11:00,11:30,Thursday,Kingcliff Library
+Story Dogs,15:30,17:00,Wednesday,Kingcliff Library
+Baby Time,11:00,11:30,Monday,Lismore Library
+Story Time,10:30,11:00,Wednesday,Lismore Library
+Toddler Time,10:00,10:30,Monday,Lismore Library
+Baby Time,10:00,10:30,Friday,Murwillumbah Civic and Cultural Centre
+Story Time,11:00,11:30,Wednesday,Murwillumbah Civic and Cultural Centre
+Baby Beats,10:00,10:30,Tuesday,Corrimal Library
+Baby Beats,10:30,11:00,Thursday,Warrawong Library
+Baby Beats,10:00,10:30,Monday,Wollongong Library
+Baby Bookworms,10:00,10:30,Friday,Corrimal Library
+Baby Bookworms,11:00,11:30,Thursday,Dapto Library
+Baby Bookworms,10:30,11:00,Wednesday,Helensburgh Library
+Baby Bookworms,10:00,10:30,Thursday,Thirroul Library
+Drop in Duplo,10:00,12:00,Thursday,Thirroul Library
+Drop in Duplo,10:00,12:00,Friday,Warrawong Library
+Drop in Duplo,10:00,12:00,Friday,Wollongong Library
+Preschool Storytime,10:00,10:45,Wednesday,Corrimal Library
+Preschool Storytime,10:30,11:15,Friday,Dapto Library
+Preschool Storytime,10:30,11:15,Friday,Helensburgh Library
+Preschool Storytime,10:00,10:45,Tuesday,Thirroul Library
+Preschool Storytime,10:30,11:15,Tuesday,Warrawong Library
+Preschool Storytime,10:00,10:45,Wednesday,Wollongong Library
+Stories in the Park,10:00,11:00,Thursday,Bulli Beach Park
+Toddlertime,10:00,10:30,Monday,Corrimal Library
+Toddlertime,10:00,10:30,Thursday,Corrimal Library
+Toddlertime,10:30,11:00,Tuesday,Dapto Library
+Toddlertime,10:30,11:00,Wednesday,Dapto Library
+Toddlertime,10:30,11:00,Monday,Helensburgh Library
+Toddlertime,10:00,10:30,Wednesday,Thirroul Library
+Toddlertime,10:00,10:30,Friday,Thirroul Library
+Toddlertime,10:30,11:00,Friday,Unanderra Library
+Toddlertime,10:30,11:00,Wednesday,Warrawong Library
+Toddlertime,10:00,10:30,Tuesday,Wollongong Library
+Toddlertime,10:00,10:30,Thursday,Wollongong Library
+Baby Rhyme Time,10:00,10:30,Monday,Blacktown Library
+Baby Rhyme Time,11:00,11:30,Monday,Blacktown Library
+Baby Rhyme Time,10:00,10:30,Tuesday,Blacktown Library
+Baby Rhyme Time,10:00,10:30,Wednesday,Blacktown Library
+Baby Rhyme Time,10:30,11:00,Saturday,Blacktown Library
+Baby Rhyme Time,10:30,11:00,Tuesday,Mount Druitt Library
+Baby Rhyme Time,10:30,11:00,Thursday,Mount Druitt Library
+Baby Rhyme Time,10:30,11:00,Saturday,Mount Druitt Library
+Baby Rhyme Time,10:30,11:00,Tuesday,Stanhope Library
+Baby Rhyme Time,10:30,11:00,Thursday,Stanhope Library
+Baby Rhyme Time,11:15,11:45,Thursday,Stanhope Library
+Baby Rhyme Time,10:00,10:30,Saturday,Stanhope Library
+Baby Rhyme Time,10:00,10:30,Tuesday,Lalor Park Library
+Baby Rhyme Time,10:00,10:30,Friday,Lalor Park Library
+Baby Rhyme Time,10:00,10:30,Saturday,Lalor Park Library
+Baby Rhyme Time,10:00,10:30,Wednesday,Riverstone Library
+Baby Rhyme Time,10:00,10:30,Saturday,Riverstone Library
+Baby Rhyme Time,10:30,11:00,Wednesday,Marsden Park Library (Temporary Library)
+Baby Rhyme Time,11:15,11:45,Wednesday,Marsden Park Library (Temporary Library)
+Baby Rhyme Time,10:00,10:30,Monday,Mobile Library - Bert Saunders Reserve
+Baby Rhyme Time,09:30,10:00,Tuesday,Mobile Library - Willmot Community Hub
+Baby Rhyme Time,11:00,11:30,Tuesday,Mobile Library - Ropes Crossing
+Baby Rhyme Time,10:00,10:30,Thursday,Mobile Library - Heber Park
+Baby Rhyme Time,11:45,12:15,Thursday,Mobile Library - Lethbridge Park
+Baby Rhyme Time,10:00,10:30,Friday,Mobile Library - Plumpton Park
+Stay and Play,11:00,11:30,Tuesday,Mount Druitt Library
+Stay and Play,11:00,11:30,Thursday,Mount Druitt Library
+Stay and Play,11:00,11:30,Saturday,Mount Druitt Library
+Stay and Play,11:45,12:15,Tuesday,Stanhope Library
+Stay and Play,11:45,12:15,Thursday,Stanhope Library
+Stay and Play,10:30,11:00,Friday,Lalor Park Library
+Stay and Play,10:30,11:00,Saturday,Lalor Park Library
+Stay and Play,10:30,11:00,Saturday,Riverstone Library
+Stay and Play,11:00,11:15,Wednesday,Marsden Park Library (Temporary Library)
+Stay and Play,11:45,12:15,Wednesday,Marsden Park Library (Temporary Library)
+Storytime,10:00,11:00,Thursday,Blacktown Library
+Storytime,11:30,12:30,Thursday,Blacktown Library
+Storytime,10:30,11:30,Monday,Mount Druitt Library
+Storytime,10:30,11:30,Wednesday,Stanhope Library
+Storytime,10:30,11:30,Friday,Stanhope Library
+Storytime,10:30,11:30,Tuesday,Lalor Park Library
+Storytime,10:30,11:30,Wednesday,Riverstone Library
+Stories Around the World,10:00,11:00,Friday,Max Webber Library
+Stories Around the World,11:30,12:30,Friday,Max Webber Library
+Stories Around the World,10:30,11:30,Wednesday,Our Library @ The Mount Druitt Hub
+Stories Around the World,10:30,11:30,Tuesday,Lalor Park Library
+Stories Around the World,10:30,11:30,Wednesday,Riverstone Library & Digital Hub
+Preschool Storytime,10:30,11:00,Tuesday,LibraryMuseum
+Preschool Storytime,10:30,11:00,Thursday,LibraryMuseum
+Dads Read,10:30,11:00,Saturday,Lavington Library
+Tiny Tots,10:30,11:00,Wednesday,LibraryMuseum
+Lego® Club,15:30,16:45,Tuesday,LibraryMuseum

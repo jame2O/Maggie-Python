@@ -178,27 +178,82 @@ def get_age_ranges(text):
         return match.group(1), match.group(3)
     else:
         return None, None
+def extract_times_to_csv(input, output):
+    df = pd.read_csv(input)
+    output_rows = []
+    time_pattern = r"([\d]{1,2}(:[\d]{2})?\s*[apAP][mM])\s*[-–—]\s*([\d]{1,2}(:[\d]{2})?\s*[apAP][mM])"
+    for idx, row in df.iterrows():
+        name=row["What's On?"]
+        location=row["Where?"]
+        time_str= str(row.get("Time", ""))
+        day=row["Day"]
+        time_str = time_str.split('\n')[0]
 
-if __name__ == '__main__':
-    # Load datasets
-    # vic_master_df = pd.read_csv("./python_scripts/data/vicMaster.csv")
-    # nsw_master_df = pd.read_csv("./python_scripts/data/nswMaster.csv")
-    # vic_parks_df = pd.read_csv("./python_scripts/data/vicParks.csv")
-    # act_master_df = pd.read_csv("./python_scripts/data/actMaster.csv")
-    # qld_master_df = pd.read_csv("./python_scripts/data/qldMaster.csv")
-    # sa_master_df = pd.read_csv("./python_scripts/data/saMaster.csv")
-    # wa_master_df = pd.read_csv("./python_scripts/data/waMaster.csv")
-    # nt_master_df = pd.read_csv("./python_scripts/data/ntMaster.csv")
-    #tas_master_df = pd.read_csv("./python_scripts/data/tasMaster.csv")
-    #tas = process_activities(tas_master_df)
-    #print("Pasring successful!")
+        match = re.search(time_pattern, time_str)
+        if match:
+            start_raw = match.group(1).replace(" ", "")
+            end_raw = match.group(3).replace(" ", "")
+            try:
+                start_24 = datetime.strptime(start_raw, "%I:%M%p").strftime("%H:%M")
+            except ValueError:
+                start_24 = datetime.strptime(start_raw, "%I%p").strftime("%H:%M")
+            try:
+                end_24 = datetime.strptime(end_raw, "%I:%M%p").strftime("%H:%M")
+            except ValueError:
+                end_24 = datetime.strptime(end_raw, "%I%p").strftime("%H:%M")
+            output_rows.append({"name": name, "start_time": start_24, "end_time": end_24, "day": day, "location": location})
+        else:
+            print(f"No match for row {idx}: {name} | {day} | {location} | {time_str}")
+
+    out_df = pd.DataFrame(output_rows)
+    out_df.to_csv(output, index=False)
+    print(f"Saved to {output}")
     
-    update_data(["nsw", "vic", "sa", "tas", "qld", "wa", "nt", "act"], "icon", "teddy_book", "toddler_session")
-    update_data(["nsw", "vic", "sa", "tas", "qld", "wa", "nt", "act"], "icon", "music_book", "rhymetime")
-    update_data(["nsw", "vic", "sa", "tas", "qld", "wa", "nt", "act"], "icon", "baby", "infant_session")
-    update_data(["nsw", "vic", "sa", "tas", "qld", "wa", "nt", "act"], "icon", "heart", "sensory")
 
-
+def update_activity_times(state, csv_path):
+    """
+    Update Firestore activity times for a given state using a CSV with columns:
+    name, start_time, end_time, day, location.
+    Only updates entries where time.start or time.end is an empty string,
+    and matches on name, day, and location.
+    """
+    df = pd.read_csv(csv_path)
+    coll_ref = db.collection("activity_data").document("activities").collection(state)
+    docs = coll_ref.stream()
+    for doc in docs:
+        data = doc.to_dict()
+        # Defensive: check structure
+        if "time" in data and "time_range" in data["time"]:
+            start_empty = data["time"]["time_range"].get("start", "") == ""
+            end_empty = data["time"]["time_range"].get("end", "") == ""
+            if start_empty or end_empty:
+                # Match on name, day, and location
+                name = data.get("name", "")
+                day = data["time"].get("day", "")
+                location = data.get("location", {}).get("name", "")
+                row = df[
+                    (df["name"] == name) &
+                    (df["day"] == day) &
+                    (df["location"] == location)
+                ]
+                if not row.empty:
+                    start_time = row.iloc[0]["start_time"]
+                    end_time = row.iloc[0]["end_time"]
+                    doc.reference.update({
+                        "time.time_range.start": start_time,
+                        "time.time_range.end": end_time
+                    })
+                    print(f"Updated {name} ({day}, {location}) with start: {start_time}, end: {end_time}")
+                else:
+                    print(f"No CSV match for {name} ({day}, {location})")
+if __name__ == '__main__':
+    states = ["NSW","VIC","WA","SA","TAS","ACT","QLD"]
+    for state in states:
+        try:
+            update_activity_times(state.lower(), f"./python_scripts/data/{state}ExtraActivityTimes.csv")
+        except FileNotFoundError:
+            print(f"No file found for {state}")
+            continue
 
 
     

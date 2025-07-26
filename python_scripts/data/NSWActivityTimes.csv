@@ -1,0 +1,269 @@
+name,start_time,end_time,day,location
+Rock-a-Bye,11:00,11:30,Tuesday,Lindfield Library
+Rock-a-Bye,10:00,10:30,Tuesday,Gordon Library
+Rock-a-Bye,10:00,10:30,Wednesday,Gordon Library
+Rock-a-Bye,11:15,11:45,Friday,St Ives Library
+Rock-a-Bye,11:00,11:30,Thursday,Turramurra Library
+Baby Bounce,10:00,10:30,Tuesday,Forestville Library
+Baby Bounce,10:00,10:30,Tuesday,Warringah Mall Library
+Baby Bounce,10:00,10:30,Wednesday,Manly Library
+Baby Bounce,10:00,10:30,Wednesday,Mona Vale Library
+Baby Bounce,10:00,10:30,Thursday,Dee Why Library
+Baby Bounce,10:00,10:30,Thursday,Glen Street Library
+Baby Time,10:00,10:45,Tuesday,Chatswood Library
+Baby Time,11:00,11:45,Wednesday,Chatswood Library
+Baby Rhyme Time,10:30,11:00,Tuesday,Arncliffe Library
+Baby Rhyme Time,10:30,11:00,Wednesday,Bexley North Library
+Baby Rhyme Time,10:30,11:00,Thursday,Eastgardens Library
+Baby Rhyme Time,10:30,11:00,Thursday,Mascot Library
+Baby Rhyme Time,10:30,11:00,Thursday,Sans Souci Library
+Baby Rhyme Time,10:30,11:00,Wednesday,Rockdale Library
+Rhyme Time,10:00,10:30,Monday,Hurstville Library
+Rhyme Time,10:30,11:00,Tuesday,Penshurst Library
+Rhyme Time,10:00,10:30,Thursday,Clive James Kogarah Library and Service Centre
+Rhyme Time,10:30,11:00,Friday,Oatley Library
+Bubs & Books,11:00,11:30,Tuesday,Hornsby Library
+Bubs & Books,11:00,11:30,Thursday,Hornsby Library
+Bubs & Books,11:00,11:30,Wednesday,Pennant Hills Library
+Book Babies,09:30,10:00,Monday,Waverley Library
+Book Babies,09:30,10:00,Tuesday,Waverley Library
+Book Babies,09:30,10:00,Thursday,Waverley Library
+Bilingual Rhyme Time,10:30,10:50,Monday,Green Square Library
+Bilingual Rhyme Time,10:30,10:50,Wednesday,Darling Square Library
+Rhyme Time,10:30,10:50,Wednesday,Surry Hills Neighbourhood Centre
+Rhyme Time,10:15,10:35,Thursday,Green Square Library
+Rhyme Time,10:30,10:50,Thursday,Glebe Library
+Book Buddies,10:30,11:00,Wednesday,Ashfield Library
+Book Buddies,10:30,11:00,Friday,Ashfield Library
+Book Buddies,10:30,11:00,Tuesday,Balmain Library
+Book Buddies,10:30,11:00,Friday,Balmain Library
+Book Buddies,10:30,11:00,Monday,Emanuel Tsardoulias Community Library
+Book Buddies,10:30,11:00,Wednesday,Haberfield Library
+Book Buddies,10:30,11:00,Tuesday,Leichhardt Library
+Book Buddies,10:30,11:00,Thursday,Leichhardt Library
+Book Buddies,10:30,11:00,Monday,Marrickville Library and Pavilion
+Book Buddies,10:30,11:00,Thursday,Marrickville Library and Pavilion
+Book Buddies,10:30,11:00,Tuesday,St Peters / Sydenham Library
+Book Buddies,10:30,11:00,Wednesday,Stanmore Library
+Baby Rhyme Time,10:00,10:30,Tuesday,Riverwood Library and Knowledge Centre
+Rhyme Time,11:00,11:30,Tuesday,Sutherland Library
+Rhyme Time,11:00,11:30,Wednesday,Cronulla Library
+Rhyme Time,11:00,11:30,Thursday,Caringbah Library
+Rhyme Time,11:00,11:30,Tuesday,Miranda Library
+Rhyme Time,11:00,11:30,Friday,Miranda Library
+Rhyme Time,11:00,11:30,Friday,Menai Library
+Rhyme Time,14:00,14:30,Wednesday,Engadine Library
+Rhyme Time,11:00,11:30,Tuesday,Sylvania Library
+Bibs and Books,10:30,11:00,Wednesday,Carlingford Library
+Bibs and Books,10:30,11:00,Wednesday,Epping Library
+Bibs and Books,10:30,11:00,Wednesday,Parramatta Library
+Bibs and Books,14:00,14:30,Thursday,Parramatta Library
+Bibs and Books,10:30,11:00,Tuesday,Wentworth Point Community Centre & Library
+Bibs and Books,10:30,11:00,Wednesday,Wentworth Point Community Centre & Library
+Babytime,10:00,10:30,Tuesday,Mullumbimby Library
+Babytime,11:00,11:30,Tuesday,Ballina Library
+Babytime,09:30,10:00,Wednesday,Alstonville Library
+Babytime,10:30,11:00,Wednesday,Lennox Head Library
+Babytime,10:30,11:00,Friday,Lennox Head Library
+Babytime,10:30,11:00,Wednesday,Byron Bay Library
+Babytime,10:30,11:00,Friday,Brunswick Heads Library
+Rhyme Time,10:30,11:00,Wednesday,South Hurstville Library
+Mandarin Rhyme Time,10:30,11:00,Wednesday,Hurstville Library
+Cantonese Rhyme Time,10:30,11:00,Wednesday,Hurstville Library
+Rhymetime,10:30,11:00,Tuesday,Ryde Library
+Rhymetime,10:30,11:00,Wednesday,Ryde Library
+Rhymetime,10:30,11:00,Wednesday,West Ryde Library
+Rhymetime,10:30,11:00,Friday,West Ryde Library
+Bilingual Rhymetime (alternating between Mandarin and Korean) ,10:30,11:00,Friday,West Ryde Library
+Rhymetime,10:30,11:00,Wednesday,Eastwood Library
+Rhymetime,10:30,11:00,Friday,Eastwood Library
+Rhymetime,14:00,14:30,Monday ,North Ryde Library
+Rhymetime,10:30,11:00,Tuesday ,North Ryde Library
+Rhymetime,09:30,10:00,Friday,Gladesville Library
+Storytime ,10:30,11:30,Thursday,Ryde Library
+Storytime - Bilingual Mandarin/English ,10:30,11:30,Thursday,Eastwood Library
+Storytime - Bilingual Mandarin/English ,10:30,11:30,Thursday,North Ryde Library
+Story Play,10:00,10:30,Thursday,West Chatswood Library
+Story Play,10:00,10:30,Monday,Artarmon Library
+Story Play,10:00,10:30,Tuesday,Northbridge Library
+Come and Play in Maroubra ,10:00,12:00,Friday,Lionel Bowen Library
+Russian Rhyme Time | Poteshka,11:30,12:00,Friday,Margaret Martin Library
+Saturday Story Time,10:30,11:00,Saturday,Malabar Community Library
+Sing Along in Cantonese,10:00,10:30,Wednesday,Lionel Bowen Library
+Babies Love Books in French - Les Bébés Aiment Les Livres,10:45,11:15,Wednesday,Lionel Bowen Library
+Tibetan Story Time,11:00,11:30,Thursday,Dee Why Library
+Story Time,11:00,11:30,Tuesday,Constitution Hill Library
+Story Time,11:00,11:30,Wednesday,Constitution Hill Library
+Story Time,10:30,11:00,Tuesday,Dundas Library
+Bibs and Books,10:30,11:00,Thursday,Dundas Library
+Story Time,10:30,11:00,Wednesday,Ermington Library
+Story Time,10:00,10:30,Friday,Ermington Library
+Story Time (Auslan Interpreted),13:30,14:00,Monday,Parramatta Library
+Rhymetime,10:15,10:45,Friday,Gladesville Library
+Stories & Play,11:00,12:00,Saturday,North Ryde Library
+Pyjama Story Time,18:30,19:00,Monday,Parramatta Library
+Family Story Time,10:30,11:00,Saturday,Parramatta Library
+Family Story Time,10:30,11:00,Sunday,Parramatta Library
+Babies Love Books,10:00,10:30,Friday,Margaret Martin Library
+Baby Rhyme Time,10:00,10:30,Tuesday,Bankstown Library and Knowledge Centre
+Baby Rhyme Time,11:00,11:30,Tuesday,Bankstown Library and Knowledge Centre
+Baby Rhyme Time,09:45,10:15,Wednesday,Campsie Library and Knowledge Centre
+Baby Rhyme Time,10:00,10:30,Thursday,Chester Hill Library and Knowledge Centre
+Baby Rhyme Time,11:00,11:30,Thursday,Chester Hill Library and Knowledge Centre
+Baby Rhyme Time,09:30,10:00,Wednesday,Earlwood Library and Knowledge Centre
+Baby Rhyme Time,10:00,10:30,Tuesday,Greenacre Library and Knowledge Centre
+Baby Rhyme Time,11:00,11:30,Tuesday,Lakemba Library and Knowledge Centre
+Baby Rhyme Time,10:00,10:30,Friday,Padstow Library and Knowledge Centre
+Baby Rhyme Time,10:00,10:30,Wednesday,Panania Library and Knowledge Centre
+Baby Rhyme Time,10:00,10:30,Friday,Panania Library and Knowledge Centre
+Busy Book Worms,10:45,11:15,Friday,Margaret Martin Library
+Rhyme Time,10:00,10:30,Monday,Manly Library
+Rhyme Time,10:00,10:30,Tuesday,Glen Street Library
+Rhyme Time,10:00,10:30,Wednesday,Forestville Library
+Rhyme Time,10:00,10:30,Wednesday,Warringah Mall Library
+Rhyme Time,10:00,10:30,Thursday,Mona Vale Library
+Rhyme Time,10:00,10:30,Thursday,Warringah Mall Library
+Rhyme Time,10:00,10:30,Friday,Dee Why Library
+Rhyme Time,10:00,10:30,Friday,Glen Street Library
+Rhyme Time,10:00,10:30,Friday,Mona Vale Library
+Rhyme Time,10:00,10:30,Friday,Manly Library
+Rock n Rhyme,10:00,10:30,Tuesday,Lindfield Library
+Rock n Rhyme,10:00,10:30,Thursday,Lindfield Library
+Rock n Rhyme,10:00,10:30,Wednesday,Gordon Library
+Rock n Rhyme,10:00,10:30,Friday,Gordon Library
+Rock n Rhyme,09:45,10:15,Wednesday,St Ives Library
+Rock n Rhyme,10:30,11:00,Friday,St Ives Library
+Rock n Rhyme,10:00,10:30,Wednesday,Turramurra Library
+Rock n Rhyme,10:00,10:30,Thursday,Turramurra Library
+Storytime,10:00,10:30,Monday,Mullumbimby Library
+Storytime,10:30,11:00,Monday,Brunswick Heads Library
+Storytime,10:30,11:00,Tuesday,Byron Bay Library
+Storytime,10:30,11:00,Thursday,Lennox Head Library
+Storytime,09:30,10:00,Thursday,Alstonville Library
+Storytime,10:30,11:00,Friday,Ballina Library
+Rhythm n Bubs,10:30,11:15,Wednesday,Darling Quarter
+Story Time,10:30,11:00,Monday,Maybanke Community Centre
+Toddler Time,10:00,10:30,Thursday,Chatswood Library
+Toddler Time,10:00,10:30,Wednesday,Chatswood Library
+Toddler Time,10:30,11:00,Wednesday,Arncliffe Library
+Toddler Time,10:30,11:00,Thursday,Bexley North Library
+Toddler Time,10:30,11:00,Tuesday,Eastgardens Library
+Toddler Time,10:30,11:00,Tuesday,Mascot Library
+Toddler Time,10:30,11:00,Tuesday,Sans Souci Library
+Toddler Time,10:30,11:00,Thursday,Rockdale Library
+Toddler Time,10:00,11:00,Wednesday,Bankstown Library and Knowledge Centre
+Toddler Time,11:00,11:30,Wednesday,Campsie Library and Knowledge Centre
+Toddler Time,09:45,10:15,Thursday,Campsie Library and Knowledge Centre
+Toddler Time,10:00,11:00,Thursday,Riverwood Library and Knowledge Centre
+Together Time,11:00,11:30,Friday,Sutherland Library
+Together Time,11:00,11:30,Thursday,Cronulla Library
+Together Time,11:00,11:30,Wednesday,Caringbah Library
+Together Time,11:00,11:30,Thursday,Menai Library
+Together Time,11:00,11:30,Wednesday,Engadine Library
+Rhyme Time,11:00,11:30,Monday,Hurstville Library
+Rhyme Time,11:30,12:00,Tuesday,Penshurst Library
+Rhyme Time,11:00,11:30,Thursday,Clive James Kogarah Library and Service Centre
+Rhyme Time,11:30,12:00,Friday,Oatley Library
+Toddler Time,10:30,11:00,Tuesday,Parramatta Library
+Toddler Tales,10:00,10:30,Monday,Hornsby Library
+Bop 2 Books ,10:30,11:00,Tuesday,Margaret Martin Library
+Bop 2 Books ,10:30,11:00,Wednesday,Lionel Bowen Library
+Rocking Rhyme Time,10:15,10:45,Monday,Waverley Library
+Rocking Rhyme Time,10:15,10:45,Tuesday,Waverley Library
+Rocking Rhyme Time,10:15,10:45,Thursday,Waverley Library
+Japanese Story Time,10:45,11:15,Monday,Chatswood Library
+Sensory Story Time,10:30,11:30,Tuesday,Lionel Bowen Library
+Preschool Story Time,11:00,12:00,Tuesday,Chester Hill Library and Knowledge Centre
+Preschool Story Time,10:30,11:30,Wednesday,Earlwood Library and Knowledge Centre
+Preschool Story Time,11:00,12:00,Thursday,Greenacre Library and Knowledge Centre
+Preschool Story Time,11:00,12:00,Wednesday,Lakemba Library and Knowledge Centre
+Preschool Story Time,11:00,12:00,Tuesday,Padstow Library and Knowledge Centre
+Preschool Story Time,11:00,12:00,Thursday,Padstow Library and Knowledge Centre
+Preschool Story Time,11:00,12:00,Tuesday,Panania Library and Knowledge Centre
+Preschool Story Time,11:00,12:00,Thursday,Panania Library and Knowledge Centre
+Preschool Story Time,10:00,11:00,Wednesday,Riverwood Library and Knowledge Centre
+Preschool Story Time in Arabic,10:30,11:30,Wednesday,Greenacre Library and Knowledge Centre
+Preschool Story Time in Chinese,10:15,11:15,Tuesday,Campsie Library and Knowledge Centre
+Preschool Story Time in Nepali,10:00,10:30,Monday,Campsie Library and Knowledge Centre
+Story Time,10:30,11:00,Friday,Carlingford Library
+Bilingual Story Time (English & Mandarin),10:30,11:00,Friday,Carlingford Library
+"Sing, Read and Grow - Toddler Time",10:30,11:00,Thursday,Wentworth Point Community Centre & Library
+Story Time,11:00,11:30,Thursday,Waverley Library
+Story Time,11:00,11:30,Monday,Waverley Library
+Story Time,11:00,11:30,Tuesday,Waverley Library
+Bilingual Storytime (Mandarin),11:30,12:00,Monday,Green Square Library
+Story Time,11:30,12:00,Tuesday,Darling Square Library
+Story Time,11:30,12:00,Wednesday,Surry Hills Neighbourhood Centre
+Bilingual Story Time (Mandarin),11:30,12:00,Wednesday,Darling Square Library
+Story Time,11:30,12:00,Thursday,Green Square Library
+Story Time,11:30,12:00,Thursday,Glebe Library
+Auslan and English Story Time,11:30,12:00,Saturday,Glebe Library
+Story Time,10:30,11:00,Tuesday,Emanuel Tsardoulias Community Library
+Story Time,10:30,11:00,Tuesday,Haberfield Library
+Story Time,10:30,11:00,Monday,Ashfield Library
+Story Time,10:30,11:00,Wednesday,Balmain Library
+Story Time,10:30,11:00,Monday,Leichhardt Library
+Story Time,10:30,11:00,Wednesday,Marrickville Library and Pavilion
+Story Time,10:30,11:00,Friday,St Peters / Sydenham Library
+Story Time,10:30,11:00,Friday,Stanmore Library
+Story Town,11:15,11:45,Tuesday,Margaret Martin Library
+Story Town,11:15,11:45,Wednesday,Lionel Bowen Library
+Story Time,10:30,11:00,Thursday,Arncliffe Library
+Story Time,10:30,11:00,Tuesday,Bexley North Library
+Story Time,10:30,11:00,Wednesday,Eastgardens Library
+Story Time,10:30,11:00,Wednesday,Mascot Library
+Story Time,10:30,11:00,Wednesday,Sans Souci Library
+Story Time,10:30,11:00,Tuesday,Rockdale Library
+Preschool Story Time,11:00,12:00,Thursday,Bankstown Library and Knowledge Centre
+Preschool Story Time,11:00,12:00,Thursday,Campsie Library and Knowledge Centre
+Story Time,10:00,10:30,Monday,Dee Why Library
+Story Time,10:00,10:30,Tuesday,Dee Why Library
+Story Time,10:00,10:30,Tuesday,Manly Library
+Story Time,10:00,10:30,Tuesday,Mona Vale Library
+Story Time,10:00,10:30,Wednesday,Dee Why Library
+Story Time,10:00,10:30,Wednesday,Glen Street Library
+Story Time,10:00,10:30,Thursday,Forestville Library
+Story Time,10:00,10:30,Thursday,Manly Library
+Story Time,10:30,11:00,Thursday,Avalon Community Library
+Story Time,10:30,11:00,Wednesday,Sutherland Library
+Story Time,10:30,11:00,Friday,Cronulla Library
+Story Time,10:30,11:00,Tuesday,Caringbah Library
+Story Time,10:30,11:00,Monday,Miranda Library
+Story Time,10:30,11:00,Wednesday,Menai Library
+Story Time,10:30,11:00,Friday,Engadine Library
+Story Time,10:30,11:00,Wednesday,Sylvania Library
+Story Time,10:30,11:15,Tuesday,Oatley Library
+Story Time,10:30,11:15,Wednesday,Penshurst Library
+Story Time,10:30,11:15,Thursday,South Hurstville Library
+Story Time,10:30,11:15,Friday,Clive James Kogarah Library and Service Centre
+Rock n Tales,11:00,11:30,Tuesday,Gordon Library
+Rock n Tales,11:00,11:30,Thursday,Gordon Library
+Rock n Tales,10:30,11:00,Wednesday,St Ives Library
+Rock n Tales,11:00,11:30,Wednesday,Turramurra Library
+Rock n Tales,11:00,11:30,Thursday,Lindfield Library
+Story Time,10:30,11:00,Tuesday ,Epping Library
+Story Time,10:30,11:00,Friday,Epping Library
+Bilingual Story Time (English & Mandarin),10:30,11:00,Friday,Epping Library
+Family Story Time,10:30,11:00,Monday,Parramatta Library
+Story Time,10:30,11:00,Friday,Parramatta Library
+Storytime for Preschoolers,10:00,10:30,Tuesday,Hornsby Library
+Storytime for Preschoolers,10:00,10:30,Thursday,Hornsby Library
+Storytime for Preschoolers,10:00,10:30,Wednesday,Pennant Hills Library
+Storytime for Preschoolers,10:00,10:30,Friday,Pennant Hills Library
+Storytime for Preschoolers,10:30,11:00,Friday,Berowra Library
+Preschool Story Time,11:00,11:30,Tuesday,Chatswood Library
+Preschool Story Time,11:00,11:30,Thursday,Chatswood Library
+Mandarin Story Time,10:00,10:30,Monday,Chatswood Library
+Auslan Storytime,09:45,10:15,Saturday,North Ryde Library
+Inclusive Storytime,10:00,10:45,Friday,North Ryde Library
+Get Ready for Big School,11:00,12:00,Wednesday,Bankstown Library and Knowledge Centre
+Get Ready for Big School,11:00,12:00,Wednesday,Chester Hill Library and Knowledge Centre
+Get Ready for Big School,10:00,11:00,Thursday,Earlwood Library and Knowledge Centre
+Get Ready for Big School,11:00,12:00,Monday,Lakemba Library and Knowledge Centre
+Get Ready for Big School,11:00,12:00,Friday,Panania Library and Knowledge Centre
+Get Ready for Big School,11:00,12:00,Monday,Riverwood Library and Knowledge Centre
+Tinker Time,16:00,17:00,Wednesday,Lionel Bowen Library
+Mobile Library,09:30,11:30,Saturday,Bangalow Parklands
+Mobile Library,09:00,10:00,Monday,Federal Rd
+Mobile Library,10:15,12:00,Tuesday,Ocean Shores
+Mobile Library,14:00,16:00,Tuesday,Suffolk Park
