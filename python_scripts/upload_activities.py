@@ -45,35 +45,32 @@ def process_parks(df):
                 "address": "",
                 "latlng": None
             },
-            "age_range": {
-                "min": 0.0,
-                "max": 0.0,
-            },
             "name": "",
             "description": "",
-            "icon": ""
+            "icon": "",
+            "latitude": "",
+            "longitude": ""            
+            
         }
         doc_entry["state"] = row["State"].lower()
         doc_entry["council"] = row["Council"]
-        doc_entry["location"]["name"] = row["Where?"]
+        doc_entry["location"]["name"] = row["Park Name"]
         doc_entry["location"]["address"] = row["Address"]
-        doc_entry["icon"] = row["Icon"]
+        doc_entry["location"]["latlng"] = firestore.GeoPoint(row["Latitude"], row["Longitude"])
+        doc_entry["icon"] = "parks"
         doc_entry["description"] = row["Short description"]
-        doc_entry["name"] = row["What's On?"]
-        
-        # Process age
-        min_age, max_age = get_age_ranges(row["Suitable for"])
-        if min_age is not None:
-            doc_entry["age_range"]["min"] = float(min_age.replace(" ", ""))
-        if max_age is not None:    
-            doc_entry["age_range"]["max"] = float(max_age.replace(" ", ""))
+        doc_entry["name"] = row["Park Name"]
+        doc_entry["latitude"] = row["Latitude"]
+        doc_entry["longitude"] = row["Longitude"]
         # Process loc
-        if doc_entry["location"]["address"] is not None:
-            lat, lng = get_lat_lng(doc_entry["location"]["address"], doc_entry["location"]["name"])
-            if lat is not None and lng is not None:
-                doc_entry["location"]["latlng"] = firestore.GeoPoint(lat, lng)
-                doc_entry["latitude"] = lat
-                doc_entry["longitude"] = lng
+        if doc_entry["longitude"] is None or doc_entry["latitude"] is None:
+            if doc_entry["location"]["address"] is not None:
+                lat, lng = get_lat_lng(doc_entry["location"]["address"], doc_entry["location"]["name"])
+                if lat is not None and lng is not None:
+                    doc_entry["location"]["latlng"] = firestore.GeoPoint(lat, lng)
+                    doc_entry["latitude"] = lat
+                    doc_entry["longitude"] = lng
+                
                 
 
         parks.append(doc_entry)
@@ -110,10 +107,14 @@ def process_activities(df):
         doc_entry["council"] = row["Council"]
         doc_entry["location"]["name"] = row["Where?"]
         doc_entry["location"]["address"] = row["Address"]
+        doc_entry["location"]["latlng"] = firestore.GeoPoint(row["Latitude"], row["Longitude"])
         doc_entry["icon"] = row["Icon"]
         doc_entry["name"] = row["What's On?"]
         doc_entry["time"]["day"] = row["Day"]
         doc_entry["description"] = row["Short description"]
+        doc_entry["latitude"] = row["Latitude"]
+        doc_entry["longitude"] = row["Longitude"]
+
         # Process time
         min_time, max_time = get_time_ranges(row["Time"])
         if min_time is not None:
@@ -134,25 +135,41 @@ def process_activities(df):
         if max_age is not None:    
             doc_entry["age_range"]["max"] = float(max_age.replace(" ", ""))
         # Process loc
-        if doc_entry["location"]["address"] is not None:
-            lat, lng = get_lat_lng(doc_entry["location"]["address"], doc_entry["location"]["name"])
-            if lat is not None and lng is not None:
-                doc_entry["location"]["latlng"] = firestore.GeoPoint(lat, lng)
-                doc_entry["latitude"] = lat
-                doc_entry["longitude"] = lng
+        if doc_entry["longitude"] is None or doc_entry["latitude"] is None:
+            if doc_entry["location"]["address"] is not None:
+                lat, lng = get_lat_lng(doc_entry["location"]["address"], doc_entry["location"]["name"])
+                if lat is not None and lng is not None:
+                    doc_entry["location"]["latlng"] = firestore.GeoPoint(lat, lng)
+                    doc_entry["latitude"] = lat
+                    doc_entry["longitude"] = lng
                 
         activities.append(doc_entry)    
     return activities
-def update_data(states, data, org, rep):
-    for state in states:
-        coll_ref = db.collection("activity_data", "activities", f"{state}")
-        query = coll_ref.where(data, "==", org)
-        docs = query.stream()
-        print("hello")
-        for doc in docs:
-            doc_ref = coll_ref.document(doc.id)
-            doc_ref.update({data: rep})
-            print(f'Document {doc.id} updated: {data} changed from {org} to {rep}')
+
+def update_parks_latlng(state, csv_path):
+    """
+    Update Firestore parks lat/lng for a given state using a CSV with columns:
+    Park Name, Latitude, Longitude.
+    Only updates entries where the name matches.
+    """
+    df = pd.read_csv(csv_path)
+    coll_ref = db.collection("activity_data").document("parks").collection(state)
+    docs = coll_ref.stream()
+    for doc in docs:
+        data = doc.to_dict()
+        name = data.get("name", "")
+        row = df[df["Park Name"] == name]
+        if not row.empty:
+            lat = row.iloc[0]["Latitude"]
+            lng = row.iloc[0]["Longitude"]
+            doc.reference.update({
+                "latitude": lat,
+                "longitude": lng,
+                "location.latlng": firestore.GeoPoint(lat, lng)
+            })
+            print(f"Updated {name} with lat: {lat}, lng: {lng}")
+        else:
+            print(f"No CSV match for {name}")
     
 def upload_data(data, type):
     for doc_entry in data:
@@ -247,13 +264,7 @@ def update_activity_times(state, csv_path):
                 else:
                     print(f"No CSV match for {name} ({day}, {location})")
 if __name__ == '__main__':
-    states = ["NSW","VIC","WA","SA","TAS","ACT","QLD"]
-    for state in states:
-        try:
-            update_activity_times(state.lower(), f"./python_scripts/data/{state}ExtraActivityTimes.csv")
-        except FileNotFoundError:
-            print(f"No file found for {state}")
-            continue
-
+    update_parks_latlng("nsw", "./python_scripts/data/nswParksUpdate2008.csv")
+    update_parks_latlng("vic", "./python_scripts/data/vicParksUpdate2008.csv")
 
     
